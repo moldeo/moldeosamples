@@ -1,0 +1,1660 @@
+moConsole:: Initializing IODevice's Manager.
+moConsole::Init > Initializing Effects Manager.
+*****Initializing __console__ *****
+*****moMoldeoObject::Init > for plugin: __console__ config: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\channelcontrol.mol label: __console__ is OK!
+moConsole::Init > mol project opening....success 
+moConsole::Init > Initializing Resource Manager.  app path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl data path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\ config: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\channelcontrol.mol render mode: 0 screen size: 1024x768 render size: 1024x768
+moResourceManager::Init > Initializing Embedded Resources.
+moResourceManager::Init > Initializing Debug Man Resource.
+moResourceManager::Init > Initializing Net Man Resource.
+moResourceManager::Init > Initializing File Man Resource.
+moResourceManager::Init > Initializing Data Man Resource.
+ moDataSessionConfig() > m_AppPath: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl
+ moDataSessionConfig() > m_ConsoleConfigName: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\channelcontrol.mol
+ moDataSessionConfig() > m_SessionFileName fixed to: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\\sesion.mos
+moDataSessionConfig > Loaded D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\\sesion.mos
+ moDataSessionConfig() > m_AppDataPath: ../../data Exists: 0
+ moDataSessionConfig() > exeFile Path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\SVNSOURCEFORGE\binaries\bin\win\moldeoplayersdl2.exe
+D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\SVNSOURCEFORGE\binaries\bin\win\\../../data doesn't exists > adding absolute path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\SVNSOURCEFORGE\binaries\bin\win\\../../data
+ moDataSessionConfig() > m_DataPath: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\preeffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\effects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\posteffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\mastereffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\resources
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\iodevices
+moResourceManager::Init > Initializing Filter Man Resource.
+moResourceManager::Init > Initializing Time Man Resource.
+moResourceManager::Init > Initializing GL Man Resource.
+moResourceManager::Init > Initializing FrameBuffer Man Resource.
+moResourceManager::Init > Initializing Texture Man Resource.
+default bpp: 32 colortype:4 > red_mask: 255 green_mask:6528016711680 blue_mask:
+moResourceManager::Init > Initializing Decoder Manager Resource.
+moResourceManager::Init > Initializing Render Man Resource.
+moRenderManager::Init > Setting Render Manager Mode to:0
+moRenderManager::Init > Setting Render Manager for Render: 1024x768 for Screen: 1024x768
+moRenderManager::Init > Using GLEW 1.9.0
+moRenderManager::Init >       glActiveTextureARB: 1551704912
+moRenderManager::Init >       glMultiTexCoord2fARB: 1551836576
+moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
+moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
+moRenderManager::Init >       GLEW_ARB_multitexture: 1
+moRenderManager::Init >       GL_EXT_gpu_shader4: 1
+moRenderManager::Init >       GLEW_EXT_geometry_shader4: 1
+moRenderManager::Init >       GLEW_ARB_imaging: 1
+moRenderManager::Init >       GLEW_ARB_shading_language_100: 1
+moRenderManager::Init >       GLEW_EXT_framebuffer_object: 1
+moRenderManager::Init > Using framebuffer_object: creating one fbo per predefined textures (4). 
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moResourceManager::Init > Initializing Math Man Resource.
+moResourceManager::Init > Initializing Shader Man Resource.
+No shadermanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Font Man Resource.
+moResourceManager::Init > Initializing GUI Man Resource.
+moResourceManager::Init > Initializing Sound Man Resource.
+No soundmanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Video Man Resource.
+No videomanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Model Man Resource.
+moResourceManager::Init > Initializing Script Man Resource.
+moLuaResourceManager constructor > L: 47593232
+moResourceManager:: Embedded Resources Ready.
+moMoldeoObject::CreateConnectors > Calling once. object: __console__ config: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\channelcontrol.mol label:__console__
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type TEXT name: devices
+moMoldeoObject::CreateConnectors > Init param type TEXT name: preeffect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: effect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: posteffect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: mastereffect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: resources
+moMoldeoObject::CreateConnectors > Init param type NUM name: mastereffects_on
+moMoldeoObject::CreateConnectors > Init param type NUM name: fulldebug
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: consolescript
+moMoldeoObject::CreateConnectors > Init param type TEXT name: outputmode
+moMoldeoObject::CreateConnectors > Init param type TEXT name: outputresolution
+moMoldeoObject::CreateConnectors > Init param type TEXT name: rendermode
+moMoldeoObject::CreateConnectors > Init param type TEXT name: renderresolution
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip1
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip2
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip3
+moMoldeoObject::CreateConnectors > Init param type NUM name: screenshots
+moMoldeoObject::CreateConnectors > Init param type NUM name: videoshots
+moMoldeoObject::CreateConnectors > loaded params & values for Object: __console__ config:D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\channelcontrol.mol label:__console__
+moMoldeoObject::CreateConnectors > OK! Object: __console__ config:D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\channelcontrol.mol label: __console__
+MOL ERROR ===>>> moConfigDefinition::SetParamIndex[__console__] > defined array entry index not in range : 20 Max Indexes : 20
+MOL ERROR ===>>> {'objectname': '__console__','objectclass': 'moConsole'}
+MOL ERROR ===>>> <moConsole>[__console__]::Init()_moDefineParamIndex > Config parameter "videoshots"  warning. Bad indexation could cause errors.
+*****Initializing keyboard *****
+*****moMoldeoObject::Init > for plugin: keyboard config: keyboard label: keyboard is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: keyboard config: keyboard label:keyboard
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type TEXT name: keyboard
+moMoldeoObject::CreateConnectors > Init param type TEXT name: code
+moMoldeoObject::CreateConnectors > Init param type TEXT name: panelvirtual
+moMoldeoObject::CreateConnectors > Init param type TEXT name: channel0virtual
+moMoldeoObject::CreateConnectors > Init param type TEXT name: masterchannelvirtual
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: keyboard config:keyboard label:keyboard
+moMoldeoObject::CreateConnectors > OK! Object: keyboard config:keyboard label: keyboard
+KEYBOARD: ncodes:108
+strcod: T_ESCAPE_BTN 
+cod: 0
+type: 1
+type: 1
+strcod: T_BACKSPACE_BTN 
+cod: 1
+type: 1
+type: 1
+strcod: T_ENTER_BTN 
+cod: 2
+type: 1
+type: 1
+strcod: T_DELETE_BTN 
+cod: 3
+type: 1
+type: 1
+strcod: T_SDLK_UP_BTN 
+cod: 4
+type: 1
+type: 1
+strcod: T_SDLK_DOWN_BTN 
+cod: 5
+type: 1
+type: 1
+strcod: T_SDLK_LEFT_BTN 
+cod: 6
+type: 1
+type: 1
+strcod: T_SDLK_RIGHT_BTN 
+cod: 7
+type: 1
+type: 1
+strcod: T_F1_BTN 
+cod: 8
+type: 1
+type: 1
+strcod: T_F2_BTN 
+cod: 9
+type: 1
+type: 1
+strcod: T_F3_BTN 
+cod: 10
+type: 1
+type: 1
+strcod: T_F4_BTN 
+cod: 11
+type: 1
+type: 1
+strcod: T_F5_BTN 
+cod: 12
+type: 1
+type: 1
+strcod: T_F6_BTN 
+cod: 13
+type: 1
+type: 1
+strcod: T_F7_BTN 
+cod: 14
+type: 1
+type: 1
+strcod: T_F8_BTN 
+cod: 15
+type: 1
+type: 1
+strcod: T_F9_BTN 
+cod: 16
+type: 1
+type: 1
+strcod: T_F10_BTN 
+cod: 17
+type: 1
+type: 1
+strcod: T_F11_BTN 
+cod: 18
+type: 1
+type: 1
+strcod: T_F12_BTN 
+cod: 19
+type: 1
+type: 1
+strcod: T_SDLK_HOME_BTN 
+cod: 20
+type: 1
+type: 1
+strcod: T_SDLK_END_BTN 
+cod: 21
+type: 1
+type: 1
+strcod: T_SDLK_PAGEUP_BTN 
+cod: 22
+type: 1
+type: 1
+strcod: T_SDLK_PAGEDOWN_BTN 
+cod: 23
+type: 1
+type: 1
+strcod: T_SDLK_RSHIFT_BTN 
+cod: 24
+type: 1
+type: 1
+strcod: T_SDLK_LSHIFT_BTN 
+cod: 25
+type: 1
+type: 1
+strcod: T_SDLK_RCTRL_BTN 
+cod: 26
+type: 1
+type: 1
+strcod: T_SDLK_LCTRL_BTN 
+cod: 27
+type: 1
+type: 1
+strcod: T_SDLK_RALT_BTN 
+cod: 28
+type: 1
+type: 1
+strcod: T_SDLK_LALT_BTN 
+cod: 29
+type: 1
+type: 1
+strcod: T_SDLK_TAB_BTN 
+cod: 30
+type: 1
+type: 1
+strcod: T_SDLK_RETURN_BTN 
+cod: 31
+type: 1
+type: 1
+strcod: T_SDLK_PLUS 
+cod: 32
+type: 1
+type: 1
+strcod: T_SDLK_MINUS 
+cod: 33
+type: 1
+type: 1
+strcod: T_SDLK_1_PUL 
+cod: 34
+type: 0
+type: 0
+strcod: T_SDLK_2_PUL 
+cod: 35
+type: 0
+type: 0
+strcod: T_SDLK_3_PUL 
+cod: 36
+type: 0
+type: 0
+strcod: T_SDLK_4_PUL 
+cod: 37
+type: 0
+type: 0
+strcod: T_SDLK_5_PUL 
+cod: 38
+type: 0
+type: 0
+strcod: T_SDLK_6_PUL 
+cod: 39
+type: 0
+type: 0
+strcod: T_SDLK_7_PUL 
+cod: 40
+type: 0
+type: 0
+strcod: T_SDLK_8_PUL 
+cod: 41
+type: 0
+type: 0
+strcod: T_SDLK_9_PUL 
+cod: 42
+type: 0
+type: 0
+strcod: T_SDLK_0_PUL 
+cod: 43
+type: 0
+type: 0
+strcod: T_SDLK_Q_PUL 
+cod: 44
+type: 0
+type: 0
+strcod: T_SDLK_W_PUL 
+cod: 45
+type: 0
+type: 0
+strcod: T_SDLK_E_PUL 
+cod: 46
+type: 0
+type: 0
+strcod: T_SDLK_R_PUL 
+cod: 47
+type: 0
+type: 0
+strcod: T_SDLK_T_PUL 
+cod: 48
+type: 0
+type: 0
+strcod: T_SDLK_Y_PUL 
+cod: 49
+type: 0
+type: 0
+strcod: T_SDLK_U_PUL 
+cod: 50
+type: 0
+type: 0
+strcod: T_SDLK_I_PUL 
+cod: 51
+type: 0
+type: 0
+strcod: T_SDLK_O_PUL 
+cod: 52
+type: 0
+type: 0
+strcod: T_SDLK_P_PUL 
+cod: 53
+type: 0
+type: 0
+strcod: T_SDLK_A_PUL 
+cod: 54
+type: 0
+type: 0
+strcod: T_SDLK_S_PUL 
+cod: 55
+type: 0
+type: 0
+strcod: T_SDLK_D_PUL 
+cod: 56
+type: 0
+type: 0
+strcod: T_SDLK_F_PUL 
+cod: 57
+type: 0
+type: 0
+strcod: T_SDLK_G_PUL 
+cod: 58
+type: 0
+type: 0
+strcod: T_SDLK_H_PUL 
+cod: 59
+type: 0
+type: 0
+strcod: T_SDLK_J_PUL 
+cod: 60
+type: 0
+type: 0
+strcod: T_SDLK_K_PUL 
+cod: 61
+type: 0
+type: 0
+strcod: T_SDLK_L_PUL 
+cod: 62
+type: 0
+type: 0
+strcod: T_SDLK_SEMICOLON 
+cod: 63
+type: 0
+type: 0
+strcod: T_SDLK_Z_PUL 
+cod: 64
+type: 0
+type: 0
+strcod: T_SDLK_X_PUL 
+cod: 65
+type: 0
+type: 0
+strcod: T_SDLK_C_PUL 
+cod: 66
+type: 0
+type: 0
+strcod: T_SDLK_V_PUL 
+cod: 67
+type: 0
+type: 0
+strcod: T_SDLK_B_PUL 
+cod: 68
+type: 0
+type: 0
+strcod: T_SDLK_N_PUL 
+cod: 69
+type: 0
+type: 0
+strcod: T_SDLK_M_PUL 
+cod: 70
+type: 0
+type: 0
+strcod: T_SDLK_COMMA 
+cod: 71
+type: 0
+type: 0
+strcod: T_SDLK_PERIOD 
+cod: 72
+type: 0
+type: 0
+strcod: T_SDLK_SLASH 
+cod: 73
+type: 0
+type: 0
+strcod: T_SDLK_Q_BTN 
+cod: 74
+type: 1
+type: 1
+strcod: T_SDLK_A_BTN 
+cod: 75
+type: 1
+type: 1
+strcod: T_SDLK_P_BTN 
+cod: 76
+type: 1
+type: 1
+strcod: T_SDLK_L_BTN 
+cod: 77
+type: 1
+type: 1
+strcod: T_SDLK_O_BTN 
+cod: 78
+type: 1
+type: 1
+strcod: T_SDLK_K_BTN 
+cod: 79
+type: 1
+type: 1
+strcod: T_SDLK_W_BTN 
+cod: 80
+type: 1
+type: 1
+strcod: T_SDLK_S_BTN 
+cod: 81
+type: 1
+type: 1
+strcod: T_SDLK_J_BTN 
+cod: 82
+type: 1
+type: 1
+strcod: T_SDLK_D_BTN 
+cod: 83
+type: 1
+type: 1
+strcod: T_SDLK_G_BTN 
+cod: 84
+type: 1
+type: 1
+strcod: T_SDLK_E_BTN 
+cod: 85
+type: 1
+type: 1
+strcod: T_SDLK_I_BTN 
+cod: 86
+type: 1
+type: 1
+strcod: T_SDLK_M_BTN 
+cod: 87
+type: 1
+type: 1
+strcod: T_SDLK_N_BTN 
+cod: 88
+type: 1
+type: 1
+strcod: T_SDLK_C_BTN 
+cod: 89
+type: 1
+type: 1
+strcod: T_SDLK_O_BTN 
+cod: 90
+type: 1
+type: 1
+strcod: T_SDLK_R_BTN 
+cod: 91
+type: 1
+type: 1
+strcod: T_SDLK_H_BTN 
+cod: 92
+type: 1
+type: 1
+strcod: T_SDLK_F_BTN 
+cod: 93
+type: 1
+type: 1
+strcod: T_SDLK_X_BTN 
+cod: 94
+type: 1
+type: 1
+strcod: T_SDLK_Z_BTN 
+cod: 95
+type: 1
+type: 1
+strcod: T_SDLK_V_BTN 
+cod: 96
+type: 1
+type: 1
+strcod: T_SDLK_B_BTN 
+cod: 97
+type: 1
+type: 1
+strcod: T_SDLK_1_BTN 
+cod: 98
+type: 1
+type: 1
+strcod: T_SDLK_2_BTN 
+cod: 99
+type: 1
+type: 1
+strcod: T_SDLK_3_BTN 
+cod: 100
+type: 1
+type: 1
+strcod: T_SDLK_4_BTN 
+cod: 101
+type: 1
+type: 1
+strcod: T_SDLK_5_BTN 
+cod: 102
+type: 1
+type: 1
+strcod: T_SDLK_6_BTN 
+cod: 103
+type: 1
+type: 1
+strcod: T_SDLK_7_BTN 
+cod: 104
+type: 1
+type: 1
+strcod: T_SDLK_8_BTN 
+cod: 105
+type: 1
+type: 1
+strcod: T_SDLK_9_BTN 
+cod: 106
+type: 1
+type: 1
+strcod: T_SDLK_0_BTN 
+cod: 107
+type: 1
+type: 1
+*****Initializing mouse *****
+*****moMoldeoObject::Init > for plugin: mouse config: mouse label: mouse is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: mouse config: mouse label:mouse
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type TEXT name: buttons
+moMoldeoObject::CreateConnectors > Init param type TEXT name: wheels
+moMoldeoObject::CreateConnectors > Init param type TEXT name: position
+moMoldeoObject::CreateConnectors > Init param type TEXT name: code
+moMoldeoObject::CreateConnectors > Init param type TEXT name: channel0virtual
+moMoldeoObject::CreateConnectors > Init param type TEXT name: masterchannelvirtual
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: mouse config:mouse label:mouse
+moMoldeoObject::CreateConnectors > OK! Object: mouse config:mouse label: mouse
+*****Initializing mixer *****
+*****moMoldeoObject::Init > for plugin: mixer config: mixer label: mixer is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: mixer config: mixer label:mixer
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type TEXT name: mixer
+moMoldeoObject::CreateConnectors > Init param type TEXT name: code
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: mixer config:mixer label:mixer
+moMoldeoObject::CreateConnectors > OK! Object: mixer config:mixer label: mixer
+cod: 0type: 8cod interno: 0
+cod: 1type: 8cod interno: 1
+cod: 2type: 8cod interno: 2
+cod: 3type: 8cod interno: 3
+cod: 4type: 8cod interno: 4
+cod: 5type: 8cod interno: 5
+cod: 6type: 8cod interno: 6
+cod: 7type: 8cod interno: 7
+cod: 8type: 8cod interno: 8
+cod: 9type: 8cod interno: 9
+cod: 10type: 8cod interno: 10
+cod: 11type: 8cod interno: 11
+cod: 12type: 8cod interno: 12
+cod: 13type: 8cod interno: 13
+cod: 14type: 8cod interno: 14
+cod: 15type: 8cod interno: 15
+cod: 16type: 8cod interno: 16
+cod: 17type: 8cod interno: 17
+cod: 18type: 8cod interno: 18
+cod: 19type: 8cod interno: 19
+cod: 20type: 8cod interno: 20
+cod: 21type: 8cod interno: 21
+cod: 22type: 8cod interno: 22
+cod: 23type: 8cod interno: 23
+cod: 24type: 8cod interno: 24
+cod: 25type: 8cod interno: 25
+cod: 26type: 8cod interno: 26
+cod: 27type: 8cod interno: 27
+cod: 28type: 8cod interno: 28
+cod: 29type: 8cod interno: 29
+cod: 30type: 8cod interno: 30
+cod: 31type: 8cod interno: 31
+cod: 32type: 8cod interno: 32
+cod: 33type: 8cod interno: 33
+cod: 34type: 8cod interno: 34
+cod: 35type: 8cod interno: 35
+cod: 36type: 8cod interno: 36
+cod: 37type: 8cod interno: 37
+cod: 38type: 8cod interno: 38
+cod: 39type: 8cod interno: 39
+cod: 40type: 8cod interno: 40
+cod: 41type: 8cod interno: 41
+cod: 42type: 8cod interno: 42
+cod: 43type: 8cod interno: 43
+cod: 44type: 8cod interno: 44
+cod: 45type: 8cod interno: 45
+cod: 46type: 8cod interno: 46
+cod: 47type: 8cod interno: 47
+cod: 48type: 8cod interno: 48
+cod: 49type: 8cod interno: 49
+cod: 50type: 8cod interno: 50
+cod: 51type: 8cod interno: 51
+cod: 52type: 8cod interno: 52
+cod: 53type: 8cod interno: 53
+cod: 54type: 8cod interno: 54
+cod: 55type: 8cod interno: 55
+cod: 56type: 8cod interno: 56
+cod: 57type: 8cod interno: 57
+cod: 58type: 8cod interno: 58
+cod: 59type: 8cod interno: 59
+cod: 60type: 8cod interno: 60
+cod: 61type: 8cod interno: 61
+cod: 62type: 8cod interno: 62
+cod: 63type: 8cod interno: 63
+cod: 64type: 8cod interno: 64
+cod: 65type: 8cod interno: 65
+cod: 66type: 8cod interno: 66
+cod: 67type: 8cod interno: 67
+cod: 68type: 8cod interno: 68
+cod: 69type: 8cod interno: 69
+cod: 70type: 8cod interno: 70
+cod: 71type: 8cod interno: 71
+cod: 72type: 8cod interno: 72
+cod: 73type: 8cod interno: 73
+cod: 74type: 8cod interno: 74
+cod: 75type: 8cod interno: 75
+cod: 76type: 8cod interno: 76
+cod: 77type: 8cod interno: 77
+cod: 78type: 8cod interno: 78
+cod: 79type: 8cod interno: 79
+cod: 80type: 8cod interno: 80
+cod: 81type: 8cod interno: 81
+cod: 82type: 8cod interno: 82
+cod: 83type: 8cod interno: 83
+cod: 84type: 8cod interno: 84
+cod: 85type: 8cod interno: 85
+cod: 86type: 8cod interno: 86
+cod: 87type: 8cod interno: 87
+cod: 88type: 8cod interno: 88
+cod: 89type: 8cod interno: 89
+cod: 90type: 8cod interno: 90
+cod: 91type: 8cod interno: 91
+cod: 92type: 8cod interno: 92
+cod: 93type: 8cod interno: 93
+cod: 94type: 8cod interno: 94
+cod: 95type: 8cod interno: 95
+cod: 96type: 8cod interno: 96
+cod: 97type: 8cod interno: 97
+cod: 98type: 8cod interno: 98
+cod: 99type: 8cod interno: 99
+cod: 100type: 8cod interno: 100
+cod: 101type: 8cod interno: 101
+cod: 102type: 8cod interno: 102
+cod: 103type: 8cod interno: 103
+cod: 104type: 8cod interno: 104
+cod: 105type: 8cod interno: 105
+cod: 106type: 8cod interno: 106
+cod: 107type: 8cod interno: 107
+cod: 108type: 8cod interno: 108
+cod: 109type: 8cod interno: 109
+cod: 110type: 8cod interno: 110
+cod: 111type: 8cod interno: 111
+cod: 112type: 8cod interno: 112
+cod: 113type: 8cod interno: 113
+cod: 114type: 8cod interno: 114
+cod: 115type: 8cod interno: 115
+cod: 116type: 8cod interno: 116
+cod: 117type: 8cod interno: 117
+cod: 118type: 8cod interno: 118
+cod: 119type: 8cod interno: 119
+cod: 120type: 8cod interno: 120
+cod: 121type: 8cod interno: 121
+cod: 122type: 8cod interno: 122
+cod: 123type: 8cod interno: 123
+cod: 124type: 8cod interno: 124
+cod: 125type: 8cod interno: 125
+cod: 126type: 8cod interno: 126
+cod: 127type: 8cod interno: 127
+cod: 128type: 8cod interno: 128
+cod: 129type: 8cod interno: 129
+cod: 130type: 8cod interno: 130
+cod: 131type: 8cod interno: 131
+cod: 132type: 8cod interno: 132
+cod: 133type: 8cod interno: 133
+cod: 134type: 8cod interno: 134
+cod: 135type: 8cod interno: 135
+cod: 136type: 8cod interno: 136
+cod: 137type: 8cod interno: 137
+cod: 138type: 8cod interno: 138
+cod: 139type: 8cod interno: 139
+cod: 140type: 8cod interno: 140
+cod: 141type: 8cod interno: 141
+cod: 142type: 8cod interno: 142
+cod: 143type: 8cod interno: 143
+cod: 144type: 8cod interno: 144
+cod: 145type: 8cod interno: 145
+cod: 146type: 8cod interno: 146
+cod: 147type: 8cod interno: 147
+cod: 148type: 8cod interno: 148
+cod: 149type: 8cod interno: 149
+cod: 150type: 8cod interno: 150
+cod: 151type: 8cod interno: 151
+cod: 152type: 1cod interno: 152
+cod: 153type: 1cod interno: 153
+cod: 154type: 1cod interno: 154
+cod: 155type: 1cod interno: 155
+cod: 156type: 1cod interno: 156
+cod: 157type: 1cod interno: 157
+cod: 158type: 1cod interno: 158
+cod: 159type: 1cod interno: 159
+cod: 160type: 1cod interno: 160
+cod: 161type: 1cod interno: 161
+cod: 162type: 1cod interno: 162
+cod: 163type: 1cod interno: 163
+cod: 164type: 1cod interno: 164
+cod: 165type: 1cod interno: 165
+cod: 166type: 1cod interno: 166
+cod: 167type: 1cod interno: 167
+cod: 168type: 1cod interno: 168
+cod: 169type: 1cod interno: 169
+cod: 170type: 1cod interno: 170
+cod: 171type: 1cod interno: 171
+cod: 172type: 1cod interno: 172
+cod: 173type: 1cod interno: 173
+cod: 174type: 1cod interno: 174
+cod: 175type: 1cod interno: 175
+cod: 176type: 1cod interno: 176
+cod: 177type: 1cod interno: 177
+cod: 178type: 1cod interno: 178
+cod: 179type: 1cod interno: 179
+cod: 180type: 1cod interno: 180
+cod: 181type: 1cod interno: 181
+cod: 182type: 1cod interno: 182
+cod: 183type: 1cod interno: 183
+cod: 184type: 1cod interno: 184
+cod: 185type: 1cod interno: 185
+cod: 186type: 1cod interno: 186
+cod: 187type: 1cod interno: 187
+cod: 188type: 1cod interno: 188
+cod: 189type: 1cod interno: 189
+cod: 190type: 1cod interno: 190
+cod: 191type: 1cod interno: 191
+cod: 192type: 1cod interno: 192
+cod: 193type: 1cod interno: 193
+cod: 194type: 1cod interno: 194
+cod: 195type: 1cod interno: 195
+cod: 196type: 1cod interno: 196
+cod: 197type: 1cod interno: 197
+cod: 198type: 1cod interno: 198
+cod: 199type: 1cod interno: 199
+cod: 200type: 1cod interno: 200
+cod: 201type: 1cod interno: 201
+cod: 202type: 1cod interno: 202
+cod: 203type: 1cod interno: 203
+cod: 204type: 1cod interno: 204
+cod: 205type: 1cod interno: 205
+cod: 206type: 1cod interno: 206
+cod: 207type: 1cod interno: 207
+cod: 208type: 1cod interno: 208
+cod: 209type: 1cod interno: 209
+cod: 210type: 1cod interno: 210
+cod: 211type: 1cod interno: 211
+cod: 212type: 1cod interno: 212
+cod: 213type: 1cod interno: 213
+cod: 214type: 1cod interno: 214
+cod: 215type: 1cod interno: 215
+cod: 216type: 2cod interno: 152
+cod: 217type: 2cod interno: 153
+cod: 218type: 2cod interno: 154
+cod: 219type: 2cod interno: 155
+cod: 220type: 2cod interno: 156
+cod: 221type: 2cod interno: 157
+cod: 222type: 2cod interno: 158
+cod: 223type: 2cod interno: 159
+cod: 224type: 2cod interno: 160
+cod: 225type: 2cod interno: 161
+cod: 226type: 2cod interno: 162
+cod: 227type: 2cod interno: 163
+cod: 228type: 2cod interno: 164
+cod: 229type: 2cod interno: 165
+cod: 230type: 2cod interno: 166
+cod: 231type: 2cod interno: 167
+cod: 232type: 2cod interno: 168
+cod: 233type: 2cod interno: 169
+cod: 234type: 2cod interno: 170
+cod: 235type: 2cod interno: 171
+cod: 236type: 2cod interno: 172
+cod: 237type: 2cod interno: 173
+cod: 238type: 2cod interno: 174
+cod: 239type: 2cod interno: 175
+cod: 240type: 2cod interno: 176
+cod: 241type: 2cod interno: 177
+cod: 242type: 2cod interno: 178
+cod: 243type: 2cod interno: 179
+cod: 244type: 2cod interno: 180
+cod: 245type: 2cod interno: 181
+cod: 246type: 2cod interno: 182
+cod: 247type: 2cod interno: 183
+cod: 248type: 2cod interno: 184
+cod: 249type: 2cod interno: 185
+cod: 250type: 2cod interno: 186
+cod: 251type: 2cod interno: 187
+cod: 252type: 2cod interno: 188
+cod: 253type: 2cod interno: 189
+cod: 254type: 2cod interno: 190
+cod: 255type: 2cod interno: 191
+cod: 256type: 2cod interno: 192
+cod: 257type: 2cod interno: 193
+cod: 258type: 2cod interno: 194
+cod: 259type: 2cod interno: 195
+cod: 260type: 2cod interno: 196
+cod: 261type: 2cod interno: 197
+cod: 262type: 2cod interno: 198
+cod: 263type: 2cod interno: 199
+cod: 264type: 2cod interno: 200
+cod: 265type: 2cod interno: 201
+cod: 266type: 2cod interno: 202
+cod: 267type: 2cod interno: 203
+cod: 268type: 2cod interno: 204
+cod: 269type: 2cod interno: 205
+cod: 270type: 2cod interno: 206
+cod: 271type: 2cod interno: 207
+cod: 272type: 2cod interno: 208
+cod: 273type: 2cod interno: 209
+cod: 274type: 2cod interno: 210
+cod: 275type: 2cod interno: 211
+cod: 276type: 2cod interno: 212
+cod: 277type: 2cod interno: 213
+cod: 278type: 2cod interno: 214
+cod: 279type: 2cod interno: 215
+cod: 280type: 0cod interno: 216
+cod: 281type: 7cod interno: 217
+cod: 282type: 7cod interno: 218
+cod: 283type: 7cod interno: 219
+cod: 284type: 7cod interno: 220
+cod: 285type: 7cod interno: 221
+cod: 286type: 7cod interno: 222
+cod: 287type: 7cod interno: 223
+cod: 288type: 7cod interno: 224
+cod: 289type: 7cod interno: 225
+cod: 290type: 1cod interno: 217
+cod: 291type: 1cod interno: 218
+cod: 292type: 1cod interno: 219
+cod: 293type: 1cod interno: 220
+cod: 294type: 1cod interno: 221
+cod: 295type: 1cod interno: 222
+cod: 296type: 1cod interno: 223
+cod: 297type: 1cod interno: 224
+cod: 298type: 1cod interno: 225
+cod: 299type: 0cod interno: 229
+cod: 300type: 1cod interno: 230
+cod: 301type: 1cod interno: 231
+cod: 302type: 1cod interno: 232
+cod: 303type: 1cod interno: 233
+cod: 304type: 1cod interno: 234
+cod: 305type: 1cod interno: 235
+cod: 306type: 0cod interno: 236
+cod: 307type: 0cod interno: 237
+cod: 308type: 9cod interno: 238
+cod: 309type: 7cod interno: 239
+cod: 310type: 1cod interno: 240
+cod: 311type: 1cod interno: 241
+cod: 312type: 1cod interno: 242
+cod: 313type: 1cod interno: 243
+cod: 314type: 1cod interno: 244
+cod: 315type: 1cod interno: 243
+cod: 316type: 1cod interno: 242
+cod: 317type: 1cod interno: 241
+cod: 318type: 1cod interno: 248
+cod: 319type: 8cod interno: 249
+cod: 320type: 8cod interno: 249
+cod: 321type: 8cod interno: 249
+cod: 322type: 8cod interno: 249
+cod: 323type: 8cod interno: 249
+cod: 324type: 8cod interno: 249
+cod: 325type: 8cod interno: 249
+cod: 326type: 8cod interno: 249
+cod: 327type: 8cod interno: 249
+cod: 328type: 0cod interno: 259
+cod: 329type: 0cod interno: 260
+cod: 330type: 9cod interno: 261
+cod: 331type: 8cod interno: 262
+cod: 332type: 1cod interno: 263
+cod: 333type: 1cod interno: 264
+cod: 334type: 9cod interno: 265
+cod: 335type: 9cod interno: 266
+cod: 336type: 9cod interno: 267
+cod: 337type: 1cod interno: 268
+cod: 338type: 1cod interno: 269
+cod: 339type: 9cod interno: 270
+cod: 340type: 1cod interno: 271
+cod: 341type: 1cod interno: 272
+cod: 342type: 9cod interno: 273
+cod: 343type: 1cod interno: 274
+cod: 344type: 1cod interno: 275
+cod: 345type: 1cod interno: 276
+cod: 346type: 1cod interno: 277
+cod: 347type: 10cod interno: 278
+cod: 348type: 1cod interno: 279
+cod: 349type: 1cod interno: 280
+cod: 350type: 1cod interno: 281
+cod: 351type: 1cod interno: 332
+cod: 352type: 1cod interno: 333
+cod: 353type: 1cod interno: 334
+cod: 354type: 1cod interno: 335
+cod: 355type: 0cod interno: 336
+cod: 356type: 0cod interno: 337
+cod: 357type: 9cod interno: 338
+cod: 358type: 8cod interno: 339
+cod: 359type: 1cod interno: 340
+cod: 360type: 1cod interno: 341
+cod: 361type: 1cod interno: 342
+cod: 362type: 1cod interno: 343
+cod: 363type: 1cod interno: 344
+cod: 364type: 1cod interno: 345
+cod: 365type: 1cod interno: 346
+cod: 366type: 1cod interno: 347
+cod: 367type: 1cod interno: 348
+cod: 368type: 8cod interno: 349
+cod: 369type: 8cod interno: 349
+cod: 370type: 8cod interno: 349
+cod: 371type: 8cod interno: 349
+cod: 372type: 8cod interno: 349
+cod: 373type: 8cod interno: 349
+cod: 374type: 8cod interno: 349
+cod: 375type: 8cod interno: 349
+cod: 376type: 8cod interno: 349
+cod: 377type: 0cod interno: 359
+cod: 378type: 0cod interno: 360
+cod: 379type: 9cod interno: 361
+cod: 380type: 7cod interno: 362
+cod: 381type: 1cod interno: 363
+cod: 382type: 1cod interno: 364
+cod: 383type: 9cod interno: 365
+cod: 384type: 9cod interno: 366
+cod: 385type: 9cod interno: 367
+cod: 386type: 1cod interno: 368
+cod: 387type: 1cod interno: 369
+cod: 388type: 9cod interno: 370
+cod: 389type: 1cod interno: 371
+cod: 390type: 1cod interno: 372
+cod: 391type: 9cod interno: 373
+cod: 392type: 1cod interno: 374
+cod: 393type: 1cod interno: 375
+cod: 394type: 1cod interno: 376
+cod: 395type: 1cod interno: 377
+cod: 396type: 1cod interno: 378
+cod: 397type: 1cod interno: 379
+cod: 398type: 10cod interno: 380
+cod: 399type: 0cod interno: 381
+moConsole::LoadIODevices > IODevices loaded.
+*****Initializing netoscin *****
+*****moMoldeoObject::Init > for plugin: netoscin config: moldeoapioscin label: moldeoapioscin is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: netoscin config: moldeoapioscin label:moldeoapioscin
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type TEXT name: hosts
+moMoldeoObject::CreateConnectors > Init param type NUM name: port
+moMoldeoObject::CreateConnectors > Init param type NUM name: receive_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: debug
+moMoldeoObject::CreateConnectors > Init param type NUM name: process_moldeo_api
+moMoldeoObject::CreateConnectors > loaded params & values for Object: netoscin config:moldeoapioscin label:moldeoapioscin
+moMoldeoObject::CreateConnectors > moldeoapioscin Init > creating outlet not as param.
+moMoldeoObject::CreateConnectors > OK! Object: netoscin config:moldeoapioscin label: moldeoapioscin
+*****Initializing netoscin *****
+*****moMoldeoObject::Init > for plugin: netoscin config: moldeoapioscin label: moldeoapioscin is OK!
+NetOSCIn listening to OSC messages on UDP port 
+Set listener
+ NETOSCIN OK: HOST NAME:127.0.0.1 PORT:3334
+Running listener...
+*****Initializing netoscout *****
+*****moMoldeoObject::Init > for plugin: netoscout config: moldeoapioscout label: moldeoapioscout is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: netoscout config: moldeoapioscout label:moldeoapioscout
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type TEXT name: hosts
+moMoldeoObject::CreateConnectors > Init param type NUM name: port
+moMoldeoObject::CreateConnectors > Init param type TEXT name: devices
+moMoldeoObject::CreateConnectors > Init param type NUM name: latency
+moMoldeoObject::CreateConnectors > Init param type NUM name: max_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: send_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: delete_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: send_moldeo_api
+moMoldeoObject::CreateConnectors > Init param type NUM name: debug
+moMoldeoObject::CreateConnectors > loaded params & values for Object: netoscout config:moldeoapioscout label:moldeoapioscout
+moMoldeoObject::CreateConnectors > moldeoapioscout Init > creating outlet not as param.
+moMoldeoObject::CreateConnectors > OK! Object: netoscout config:moldeoapioscout label: moldeoapioscout
+moConsole::LoadResources > Resources Plugin loaded !
+moConsole::LoadPreEffects > Loading PreEffects configs...
+moConsole::LoadPreEffects > Pre-Effects number: 1
+*****Initializing erase *****
+*****moMoldeoObject::Init > for plugin: erase config: erase label: erase is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: erase config: erase label:erase
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > loaded params & values for Object: erase config:erase label:erase
+moMoldeoObject::CreateConnectors > OK! Object: erase config:erase label: erase
+moEffect::PreInit > OK! for object: erase config: erase label: erase
+moConsole::LoadPreEffects > Erase initialized
+moConsole::LoadPreEffects > Pre-Effects loaded !
+moConsole::LoadPostEffects > Loading PostEffects configs...
+moConsole::LoadPostEffects > Post Effects number: 0
+moConsole::LoadPostEffects > Post Effects loaded !
+moConsole::LoadEffects > Loading Effects configs...
+moConsole::LoadEffects > Effects number: 2
+moConsole::LoadingEffect > D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\\icon.cfg
+moConsole::LoadingEffect > D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\moldeodirector\data\samples\ChannelControl\\image.cfg
+moConsole::LoadEffects > Effects loaded !
+moConsole::LoadMasterEffects > Loading MasterEffects configs...
+moConsole::LoadMasterEffects > Master Effects number: 5
+*****Initializing ligia *****
+*****moMoldeoObject::Init > for plugin: ligia config: ligia label: ligia is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: ligia config: ligia label:ligia
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type TEXT name: live
+moMoldeoObject::CreateConnectors > Init param type TEXT name: codes
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: ligia config:ligia label:ligia
+moMoldeoObject::CreateConnectors > OK! Object: ligia config:ligia label: ligia
+moEffect::PreInit > OK! for object: ligia config: ligia label: ligia
+moConsole::LoadMasterEffects > Master-Effects loaded.
+moConsole::Init > calling VideoManager update function.
+moConsole::Init > InitializeAllEffects.
+*****Initializing icon *****
+*****moMoldeoObject::Init > for plugin: icon config: icon label: icon is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: icon config: icon label:icon
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: texture
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type BLENDING name: blending
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: width
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: height
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEX name: translatex
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEY name: translatey
+moMoldeoObject::CreateConnectors > Init param type ROTATEZ name: rotate
+moMoldeoObject::CreateConnectors > Init param type SCALEX name: scalex
+moMoldeoObject::CreateConnectors > Init param type SCALEY name: scaley
+moMoldeoObject::CreateConnectors > loaded params & values for Object: icon config:icon label:icon
+moMoldeoObject::CreateConnectors > OK! Object: icon config:icon label: icon
+moEffect::PreInit > OK! for object: icon config: icon label: icon
+*****Initializing image *****
+*****moMoldeoObject::Init > for plugin: image config: image label: image is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: image config: image label:image
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: texture
+moMoldeoObject::CreateConnectors > Default
+moMoldeoObject::CreateConnectors > Init param type BLENDING name: blending
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_text_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_text_y
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: anc_text_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: alt_text_y
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_cuad_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_cuad_y
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: anc_cuad_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: alt_cuad_y
+moMoldeoObject::CreateConnectors > loaded params & values for Object: image config:image label:image
+moMoldeoObject::CreateConnectors > OK! Object: image config:image label: image
+moEffect::PreInit > OK! for object: image config: image label: image
+*****Initializing channel *****
+*****moMoldeoObject::Init > for plugin: channel config: channel0 label: channel0 is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: channel config: channel0 label:channel0
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type NUM name: firstselected
+moMoldeoObject::CreateConnectors > Init param type TEXT name: codes
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: channel config:channel0 label:channel0
+moMoldeoObject::CreateConnectors > OK! Object: channel config:channel0 label: channel0
+moEffect::PreInit > OK! for object: channel config: channel0 label: channel0
+
+Cargando codigos efecto channel ncodes: 77
+
+accioncod: 0 strcod: BTN_FX0_SEL0 dispositivo: 2 codisp: 216
+
+accioncod: 1 strcod: BTN_FX1_SEL0 dispositivo: 2 codisp: 217
+
+accioncod: 2 strcod: BTN_FX2_SEL0 dispositivo: 2 codisp: 218
+
+accioncod: 3 strcod: BTN_FX3_SEL0 dispositivo: 2 codisp: 219
+
+accioncod: 4 strcod: BTN_FX4_SEL0 dispositivo: 2 codisp: 220
+
+accioncod: 5 strcod: BTN_FX5_SEL0 dispositivo: 2 codisp: 221
+
+accioncod: 6 strcod: BTN_FX6_SEL0 dispositivo: 2 codisp: 222
+
+accioncod: 7 strcod: BTN_FX7_SEL0 dispositivo: 2 codisp: 223
+
+accioncod: 8 strcod: BTN_FX8_SEL0 dispositivo: 2 codisp: 224
+
+accioncod: 9 strcod: BTN_FX9_SEL0 dispositivo: 2 codisp: 225
+
+accioncod: 10 strcod: BTN_FX10_SEL0 dispositivo: 2 codisp: 226
+
+accioncod: 11 strcod: BTN_FX11_SEL0 dispositivo: 2 codisp: 227
+
+accioncod: 12 strcod: BTN_FX12_SEL0 dispositivo: 2 codisp: 228
+
+accioncod: 13 strcod: BTN_FX13_SEL0 dispositivo: 2 codisp: 229
+
+accioncod: 14 strcod: BTN_FX14_SEL0 dispositivo: 2 codisp: 230
+
+accioncod: 15 strcod: BTN_FX15_SEL0 dispositivo: 2 codisp: 231
+
+accioncod: 16 strcod: BTN_FX16_SEL0 dispositivo: 2 codisp: 232
+
+accioncod: 17 strcod: BTN_FX17_SEL0 dispositivo: 2 codisp: 233
+
+accioncod: 18 strcod: BTN_FX18_SEL0 dispositivo: 2 codisp: 234
+
+accioncod: 19 strcod: BTN_FX19_SEL0 dispositivo: 2 codisp: 235
+
+accioncod: 20 strcod: BTN_FX20_SEL0 dispositivo: 2 codisp: 236
+
+accioncod: 21 strcod: BTN_FX21_SEL0 dispositivo: 2 codisp: 237
+
+accioncod: 22 strcod: BTN_FX22_SEL0 dispositivo: 2 codisp: 238
+
+accioncod: 23 strcod: BTN_FX23_SEL0 dispositivo: 2 codisp: 239
+
+accioncod: 24 strcod: BTN_FX24_SEL0 dispositivo: 2 codisp: 240
+
+accioncod: 25 strcod: BTN_FX25_SEL0 dispositivo: 2 codisp: 241
+
+accioncod: 26 strcod: BTN_FX26_SEL0 dispositivo: 2 codisp: 242
+
+accioncod: 27 strcod: BTN_FX27_SEL0 dispositivo: 2 codisp: 243
+
+accioncod: 28 strcod: BTN_FX28_SEL0 dispositivo: 2 codisp: 244
+
+accioncod: 29 strcod: BTN_FX29_SEL0 dispositivo: 2 codisp: 245
+
+accioncod: 30 strcod: BTN_FX30_SEL0 dispositivo: 2 codisp: 246
+
+accioncod: 31 strcod: BTN_FX31_SEL0 dispositivo: 2 codisp: 247
+
+accioncod: 32 strcod: BTN_FX32_SEL0 dispositivo: 2 codisp: 248
+
+accioncod: 33 strcod: BTN_FX33_SEL0 dispositivo: 2 codisp: 249
+
+accioncod: 34 strcod: BTN_FX34_SEL0 dispositivo: 2 codisp: 250
+
+accioncod: 35 strcod: BTN_FX35_SEL0 dispositivo: 2 codisp: 251
+
+accioncod: 36 strcod: BTN_FX36_SEL0 dispositivo: 2 codisp: 252
+
+accioncod: 37 strcod: BTN_FX37_SEL0 dispositivo: 2 codisp: 253
+
+accioncod: 38 strcod: BTN_FX38_SEL0 dispositivo: 2 codisp: 254
+
+accioncod: 39 strcod: BTN_FX39_SEL0 dispositivo: 2 codisp: 255
+
+accioncod: 40 strcod: BTN_PREFX0_SEL0 dispositivo: 2 codisp: 256
+
+accioncod: 41 strcod: BTN_PREFX1_SEL0 dispositivo: 2 codisp: 257
+
+accioncod: 42 strcod: BTN_PREFX2_SEL0 dispositivo: 2 codisp: 258
+
+accioncod: 43 strcod: BTN_PREFX3_SEL0 dispositivo: 2 codisp: 259
+
+accioncod: 44 strcod: BTN_PSTFX0_SEL0 dispositivo: 2 codisp: 268
+
+accioncod: 45 strcod: BTN_PSTFX1_SEL0 dispositivo: 2 codisp: 269
+
+accioncod: 46 strcod: BTN_PSTFX2_SEL0 dispositivo: 2 codisp: 270
+
+accioncod: 47 strcod: BTN_PSTFX3_SEL0 dispositivo: 2 codisp: 271
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> 
+channel0.cfg: no se encontró en ningun dispositivo el codigo de dispositivo correspondiente a: 
+
+accioncod: 48 strcod: CANAL0_BTN_SYNCRO_TEMPO_GRAL dispositivo: 2 codisp: 304
+
+accioncod: 49 strcod: CANAL0_BTN_SYNCRO_BEAT dispositivo: 2 codisp: 305
+
+accioncod: 50 strcod: CANAL0_PITCH_SUB dispositivo: 2 codisp: 306
+
+accioncod: 51 strcod: CANAL0_PITCH_BAJ dispositivo: 2 codisp: 307
+
+accioncod: 52 strcod: CANAL0_WHEEL_PITCH dispositivo: 2 codisp: 308
+
+accioncod: 53 strcod: CANAL0_BTN_MULTIPLICADOR_XX dispositivo: 2 codisp: 310
+
+accioncod: 54 strcod: CANAL0_BTN_MULTIPLICADOR_DX dispositivo: 2 codisp: 318
+
+accioncod: 55 strcod: CANAL0_ALPHA_SUB dispositivo: 2 codisp: 328
+
+accioncod: 56 strcod: CANAL0_ALPHA_BAJ dispositivo: 2 codisp: 329
+
+accioncod: 57 strcod: CANAL0_WHEEL_ALPHA dispositivo: 2 codisp: 330
+
+accioncod: 58 strcod: CANAL0_AMPLITUD_SUB dispositivo: 2 codisp: 340
+
+accioncod: 59 strcod: CANAL0_AMPLITUD_BAJ dispositivo: 2 codisp: 341
+
+accioncod: 60 strcod: CANAL0_WHEEL_AMPLITUD dispositivo: 2 codisp: 342
+
+accioncod: 61 strcod: CANAL0_MAGNITUD_SUB dispositivo: 2 codisp: 337
+
+accioncod: 62 strcod: CANAL0_MAGNITUD_BAJ dispositivo: 2 codisp: 338
+
+accioncod: 63 strcod: CANAL0_WHEEL_MAGNITUD dispositivo: 2 codisp: 339
+
+accioncod: 64 strcod: CANAL0_TINTA_SUB dispositivo: 2 codisp: 332
+
+accioncod: 65 strcod: CANAL0_TINTA_BAJ dispositivo: 2 codisp: 333
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> 
+channel0.cfg: no se encontró en ningun dispositivo el codigo de dispositivo correspondiente a: 
+
+accioncod: 66 strcod: CANAL0_WHEEL_TINTA dispositivo: 2 codisp: 334
+
+accioncod: 67 strcod: CANAL0_WHEEL_CROMINANCIA dispositivo: 2 codisp: 335
+
+accioncod: 68 strcod: CANAL0_WHEEL_SATURACION dispositivo: 2 codisp: 336
+
+accioncod: 69 strcod: CANAL0_BTN_PARAM_SIG dispositivo: 2 codisp: 343
+
+accioncod: 70 strcod: CANAL0_BTN_PARAM_ANT dispositivo: 2 codisp: 344
+
+accioncod: 71 strcod: CANAL0_BTN_VALOR_SIG dispositivo: 2 codisp: 345
+
+accioncod: 72 strcod: CANAL0_BTN_VALOR_ANT dispositivo: 2 codisp: 346
+
+accioncod: 73 strcod: CANAL0_BTN_PARAMSET_SIG dispositivo: 2 codisp: 348
+
+accioncod: 74 strcod: CANAL0_BTN_PARAMSET_ANT dispositivo: 2 codisp: 349
+
+accioncod: 75 strcod: CANAL0_DESELECCIONAR_FX dispositivo: 2 codisp: 350
+
+accioncod: 76 strcod: CANAL0_SELECTOR2 dispositivo: 2 codisp: 399
+*****Initializing masterchannel *****
+*****moMoldeoObject::Init > for plugin: masterchannel config: masterchannel label: masterchannel is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: masterchannel config: masterchannel label:masterchannel
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type TEXT name: codes
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: masterchannel config:masterchannel label:masterchannel
+moMoldeoObject::CreateConnectors > OK! Object: masterchannel config:masterchannel label: masterchannel
+moEffect::PreInit > OK! for object: masterchannel config: masterchannel label: masterchannel
+
+Cargando codigos efecto masterchannel ncodes: 21
+
+accioncod: 0 strcod: CANALMAESTRO_BTN_SYNCRO_TEMPO_GRAL dispositivo: 2 codisp: 353
+
+accioncod: 1 strcod: CANALMAESTRO_PITCH_SUB dispositivo: 2 codisp: 355
+
+accioncod: 2 strcod: CANALMAESTRO_PITCH_BAJ dispositivo: 2 codisp: 356
+
+accioncod: 3 strcod: CANALMAESTRO_WHEEL_PITCH dispositivo: 2 codisp: 357
+
+accioncod: 4 strcod: CANALMAESTRO_BTN_MULTIPLICADOR_XX dispositivo: 2 codisp: 359
+
+accioncod: 5 strcod: CANALMAESTRO_BTN_MULTIPLICADOR_DX dispositivo: 2 codisp: 367
+
+accioncod: 6 strcod: CANALMAESTRO_ALPHA_SUB dispositivo: 2 codisp: 377
+
+accioncod: 7 strcod: CANALMAESTRO_ALPHA_BAJ dispositivo: 2 codisp: 378
+
+accioncod: 8 strcod: CANALMAESTRO_WHEEL_ALPHA dispositivo: 2 codisp: 379
+
+accioncod: 9 strcod: CANALMAESTRO_AMPLITUD_SUB dispositivo: 2 codisp: 389
+
+accioncod: 10 strcod: CANALMAESTRO_AMPLITUD_BAJ dispositivo: 2 codisp: 390
+
+accioncod: 11 strcod: CANALMAESTRO_WHEEL_AMPLITUD dispositivo: 2 codisp: 391
+
+accioncod: 12 strcod: CANALMAESTRO_MAGNITUD_SUB dispositivo: 2 codisp: 386
+
+accioncod: 13 strcod: CANALMAESTRO_MAGNITUD_BAJ dispositivo: 2 codisp: 387
+
+accioncod: 14 strcod: CANALMAESTRO_WHEEL_MAGNITUD dispositivo: 2 codisp: 388
+
+accioncod: 15 strcod: CANALMAESTRO_TINTA_SUB dispositivo: 2 codisp: 381
+
+accioncod: 16 strcod: CANALMAESTRO_TINTA_BAJ dispositivo: 2 codisp: 382
+
+accioncod: 17 strcod: CANALMAESTRO_WHEEL_TINTA dispositivo: 2 codisp: 383
+
+accioncod: 18 strcod: CANALMAESTRO_WHEEL_CROMINANCIA dispositivo: 2 codisp: 384
+
+accioncod: 19 strcod: CANALMAESTRO_WHEEL_SATURACION dispositivo: 2 codisp: 385
+
+accioncod: 20 strcod: CANALMAESTRO_BTN_SYNCRO_BEAT dispositivo: 2 codisp: 354
+*****Initializing panel *****
+*****moMoldeoObject::Init > for plugin: panel config: panel label: panel is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: panel config: panel label:panel
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type TEXT name: codes
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viewport_left
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viewport_top
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viewport_width
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viewport_height
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEX name: translatex
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEY name: translatey
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEZ name: translatez
+moMoldeoObject::CreateConnectors > Init param type ROTATEX name: rotatex
+moMoldeoObject::CreateConnectors > Init param type ROTATEY name: rotatey
+moMoldeoObject::CreateConnectors > Init param type ROTATEZ name: rotatez
+moMoldeoObject::CreateConnectors > Init param type SCALEX name: scalex
+moMoldeoObject::CreateConnectors > Init param type SCALEY name: scaley
+moMoldeoObject::CreateConnectors > Init param type SCALEZ name: scalez
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: texture
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type BLENDING name: blending
+moMoldeoObject::CreateConnectors > Init param type NUM name: rows
+moMoldeoObject::CreateConnectors > Init param type NUM name: columns
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_onoff
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_alpha
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_selected
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_tempo
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_background
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_class_background
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_separation
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: icon_class_separation
+moMoldeoObject::CreateConnectors > default
+moMoldeoObject::CreateConnectors > loaded params & values for Object: panel config:panel label:panel
+moMoldeoObject::CreateConnectors > OK! Object: panel config:panel label: panel
+moEffect::PreInit > OK! for object: panel config: panel label: panel
+
+Cargando codigos efecto panel ncodes: 65
+
+accioncod: 0 strcod: BTN_FX0 dispositivo: 2 codisp: 152
+
+accioncod: 1 strcod: BTN_FX1 dispositivo: 2 codisp: 153
+
+accioncod: 2 strcod: BTN_FX2 dispositivo: 2 codisp: 154
+
+accioncod: 3 strcod: BTN_FX3 dispositivo: 2 codisp: 155
+
+accioncod: 4 strcod: BTN_FX4 dispositivo: 2 codisp: 156
+
+accioncod: 5 strcod: BTN_FX5 dispositivo: 2 codisp: 157
+
+accioncod: 6 strcod: BTN_FX6 dispositivo: 2 codisp: 158
+
+accioncod: 7 strcod: BTN_FX7 dispositivo: 2 codisp: 159
+
+accioncod: 8 strcod: BTN_FX8 dispositivo: 2 codisp: 160
+
+accioncod: 9 strcod: BTN_FX9 dispositivo: 2 codisp: 161
+
+accioncod: 10 strcod: BTN_FX10 dispositivo: 2 codisp: 162
+
+accioncod: 11 strcod: BTN_FX11 dispositivo: 2 codisp: 163
+
+accioncod: 12 strcod: BTN_FX12 dispositivo: 2 codisp: 164
+
+accioncod: 13 strcod: BTN_FX13 dispositivo: 2 codisp: 165
+
+accioncod: 14 strcod: BTN_FX14 dispositivo: 2 codisp: 166
+
+accioncod: 15 strcod: BTN_FX15 dispositivo: 2 codisp: 167
+
+accioncod: 16 strcod: BTN_FX16 dispositivo: 2 codisp: 168
+
+accioncod: 17 strcod: BTN_FX17 dispositivo: 2 codisp: 169
+
+accioncod: 18 strcod: BTN_FX18 dispositivo: 2 codisp: 170
+
+accioncod: 19 strcod: BTN_FX19 dispositivo: 2 codisp: 171
+
+accioncod: 20 strcod: BTN_FX20 dispositivo: 2 codisp: 172
+
+accioncod: 21 strcod: BTN_FX21 dispositivo: 2 codisp: 173
+
+accioncod: 22 strcod: BTN_FX22 dispositivo: 2 codisp: 174
+
+accioncod: 23 strcod: BTN_FX23 dispositivo: 2 codisp: 175
+
+accioncod: 24 strcod: BTN_FX24 dispositivo: 2 codisp: 176
+
+accioncod: 25 strcod: BTN_FX25 dispositivo: 2 codisp: 177
+
+accioncod: 26 strcod: BTN_FX26 dispositivo: 2 codisp: 178
+
+accioncod: 27 strcod: BTN_FX27 dispositivo: 2 codisp: 179
+
+accioncod: 28 strcod: BTN_FX28 dispositivo: 2 codisp: 180
+
+accioncod: 29 strcod: BTN_FX29 dispositivo: 2 codisp: 181
+
+accioncod: 30 strcod: BTN_FX30 dispositivo: 2 codisp: 182
+
+accioncod: 31 strcod: BTN_FX31 dispositivo: 2 codisp: 183
+
+accioncod: 32 strcod: BTN_FX32 dispositivo: 2 codisp: 184
+
+accioncod: 33 strcod: BTN_FX33 dispositivo: 2 codisp: 185
+
+accioncod: 34 strcod: BTN_FX34 dispositivo: 2 codisp: 186
+
+accioncod: 35 strcod: BTN_FX35 dispositivo: 2 codisp: 187
+
+accioncod: 36 strcod: BTN_FX36 dispositivo: 2 codisp: 188
+
+accioncod: 37 strcod: BTN_FX37 dispositivo: 2 codisp: 189
+
+accioncod: 38 strcod: BTN_FX38 dispositivo: 2 codisp: 190
+
+accioncod: 39 strcod: BTN_FX39 dispositivo: 2 codisp: 191
+
+accioncod: 40 strcod: BTN_PREFX0 dispositivo: 2 codisp: 192
+
+accioncod: 41 strcod: BTN_PREFX1 dispositivo: 2 codisp: 193
+
+accioncod: 42 strcod: BTN_PREFX2 dispositivo: 2 codisp: 194
+
+accioncod: 43 strcod: BTN_PREFX3 dispositivo: 2 codisp: 195
+
+accioncod: 44 strcod: BTN_PREFX4 dispositivo: 2 codisp: 196
+
+accioncod: 45 strcod: BTN_PREFX5 dispositivo: 2 codisp: 197
+
+accioncod: 46 strcod: BTN_PREFX6 dispositivo: 2 codisp: 198
+
+accioncod: 47 strcod: BTN_PREFX7 dispositivo: 2 codisp: 199
+
+accioncod: 48 strcod: BTN_PREFX8 dispositivo: 2 codisp: 200
+
+accioncod: 49 strcod: BTN_PREFX9 dispositivo: 2 codisp: 201
+
+accioncod: 50 strcod: BTN_PREFX10 dispositivo: 2 codisp: 202
+
+accioncod: 51 strcod: BTN_PREFX11 dispositivo: 2 codisp: 203
+
+accioncod: 52 strcod: BTN_PSTFX0 dispositivo: 2 codisp: 204
+
+accioncod: 53 strcod: BTN_PSTFX1 dispositivo: 2 codisp: 205
+
+accioncod: 54 strcod: BTN_PSTFX2 dispositivo: 2 codisp: 206
+
+accioncod: 55 strcod: BTN_PSTFX3 dispositivo: 2 codisp: 207
+
+accioncod: 56 strcod: BTN_PSTFX4 dispositivo: 2 codisp: 208
+
+accioncod: 57 strcod: BTN_PSTFX5 dispositivo: 2 codisp: 209
+
+accioncod: 58 strcod: BTN_PSTFX6 dispositivo: 2 codisp: 210
+
+accioncod: 59 strcod: BTN_PSTFX7 dispositivo: 2 codisp: 211
+
+accioncod: 60 strcod: BTN_PSTFX8 dispositivo: 2 codisp: 212
+
+accioncod: 61 strcod: BTN_PSTFX9 dispositivo: 2 codisp: 213
+
+accioncod: 62 strcod: BTN_PSTFX10 dispositivo: 2 codisp: 214
+
+accioncod: 63 strcod: BTN_PSTFX11 dispositivo: 2 codisp: 215
+
+accioncod: 64 strcod: CANAL0_SELECTOR2 dispositivo: 2 codisp: 399
+*****Initializing presetpanel *****
+*****moMoldeoObject::Init > for plugin: presetpanel config: presetpanel label: presetpanel is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: presetpanel config: presetpanel label:presetpanel
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type TEXT name: codes
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: presetpanel config:presetpanel label:presetpanel
+moMoldeoObject::CreateConnectors > OK! Object: presetpanel config:presetpanel label: presetpanel
+moEffect::PreInit > OK! for object: presetpanel config: presetpanel label: presetpanel
+
+Cargando codigos efecto presetpanel ncodes: 18
+
+accioncod: 0 strcod: BTN_PRESET0_SET dispositivo: 2 codisp: 281
+
+accioncod: 1 strcod: BTN_PRESET1_SET dispositivo: 2 codisp: 282
+
+accioncod: 2 strcod: BTN_PRESET2_SET dispositivo: 2 codisp: 283
+
+accioncod: 3 strcod: BTN_PRESET3_SET dispositivo: 2 codisp: 284
+
+accioncod: 4 strcod: BTN_PRESET4_SET dispositivo: 2 codisp: 285
+
+accioncod: 5 strcod: BTN_PRESET5_SET dispositivo: 2 codisp: 286
+
+accioncod: 6 strcod: BTN_PRESET6_SET dispositivo: 2 codisp: 287
+
+accioncod: 7 strcod: BTN_PRESET7_SET dispositivo: 2 codisp: 288
+
+accioncod: 8 strcod: BTN_PRESET8_SET dispositivo: 2 codisp: 289
+
+accioncod: 9 strcod: BTN_PRESET0_GET dispositivo: 2 codisp: 290
+
+accioncod: 10 strcod: BTN_PRESET1_GET dispositivo: 2 codisp: 291
+
+accioncod: 11 strcod: BTN_PRESET2_GET dispositivo: 2 codisp: 292
+
+accioncod: 12 strcod: BTN_PRESET3_GET dispositivo: 2 codisp: 293
+
+accioncod: 13 strcod: BTN_PRESET4_GET dispositivo: 2 codisp: 294
+
+accioncod: 14 strcod: BTN_PRESET5_GET dispositivo: 2 codisp: 295
+
+accioncod: 15 strcod: BTN_PRESET6_GET dispositivo: 2 codisp: 296
+
+accioncod: 16 strcod: BTN_PRESET7_GET dispositivo: 2 codisp: 297
+
+accioncod: 17 strcod: BTN_PRESET8_GET dispositivo: 2 codisp: 298
+
+Cargando codigos efecto ligia ncodes: 9
+
+accioncod: 0 strcod: T_ESCAPE_BTN dispositivo: 0 codisp: 0
+
+accioncod: 1 strcod: T_ENTER_BTN dispositivo: 0 codisp: 2
+
+accioncod: 2 strcod: T_ENTER_BTN dispositivo: 0 codisp: 2
+
+accioncod: 3 strcod: T_F12_BTN dispositivo: 0 codisp: 19
+
+accioncod: 4 strcod: T_SDLK_HOME_BTN dispositivo: 0 codisp: 20
+
+accioncod: 5 strcod: T_SDLK_END_BTN dispositivo: 0 codisp: 21
+
+accioncod: 6 strcod: T_F9_BTN dispositivo: 0 codisp: 16
+
+accioncod: 7 strcod: T_F10_BTN dispositivo: 0 codisp: 17
+
+accioncod: 8 strcod: T_F11_BTN dispositivo: 0 codisp: 18
+moConsole::Init > StartMasterEffects.
+moConsole::Init > LoadConnections.
+moConsole::Init > ScriptExeInit.
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: consoleget count:1 mapped type:147 fullmessage: k:0[consoleget]
+moNetOSCOut::Update > Sending Moldeo API Message!
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: consolegetstate count:2 mapped type:148 fullmessage: k:0[consolegetstate] k:1[__console__]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[erase]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[icon]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[image]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[channel0]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[masterchannel]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[panel]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[presetpanel]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[ligia]
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: consoleget count:1 mapped type:147 fullmessage: k:0[consoleget]
+moNetOSCOut::Update > Sending Moldeo API Message!
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: consolegetstate count:2 mapped type:148 fullmessage: k:0[consolegetstate] k:1[__console__]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[erase]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[icon]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[image]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[channel0]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[masterchannel]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[panel]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[presetpanel]
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: effectgetstate count:2 mapped type:126 fullmessage: k:0[effectgetstate] k:1[ligia]
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moNetOSCOut::Update > Sending Moldeo API Message!
+moConsole::ProcessMoldeoAPIMessage > Processing Moldeo API Message: consolesave count:2 mapped type:138 fullmessage: k:0[consolesave] k:1[]
+moConsole::Processing > Saving ALL
+moNetOSCOut::Update > Sending Moldeo API Message!
+moRenderManager::Init > Setting Render Manager Mode to:0
+moRenderManager::Init > Setting Render Manager for Render: 1029x768 for Screen: 1029x768
+moRenderManager::Init > Using GLEW 1.9.0
+moRenderManager::Init >       glActiveTextureARB: 1551704912
+moRenderManager::Init >       glMultiTexCoord2fARB: 1551836576
+moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
+moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
+moRenderManager::Init >       GLEW_ARB_multitexture: 1
+moRenderManager::Init >       GL_EXT_gpu_shader4: 1
+moRenderManager::Init >       GLEW_EXT_geometry_shader4: 1
+moRenderManager::Init >       GLEW_ARB_imaging: 1
+moRenderManager::Init >       GLEW_ARB_shading_language_100: 1
+moRenderManager::Init >       GLEW_EXT_framebuffer_object: 1
+moRenderManager::Init > Using framebuffer_object: creating one fbo per predefined textures (4). 
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT

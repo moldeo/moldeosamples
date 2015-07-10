@@ -1,0 +1,23 @@
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\preeffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\effects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\posteffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\mastereffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\resources
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\iodevices
+MOL ERROR ===>>> moConfigDefinition::SetParamIndex[__console__] > defined array entry index not in range : 20 Max Indexes : 20
+MOL ERROR ===>>> {'objectname': '__console__','objectclass': 'moConsole'}
+MOL ERROR ===>>> <moConsole>[__console__]::Init()_moDefineParamIndex > Config parameter "videoshots"  warning. Bad indexation could cause errors.
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> 
+channel0.cfg: no se encontró en ningun dispositivo el codigo de dispositivo correspondiente a: 
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> string code is empty: [].
+MOL ERROR ===>>> 
+channel0.cfg: no se encontró en ningun dispositivo el codigo de dispositivo correspondiente a: 
