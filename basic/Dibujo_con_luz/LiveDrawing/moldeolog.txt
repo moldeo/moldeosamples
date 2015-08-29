@@ -1,0 +1,567 @@
+moConsole:: Initializing IODevice's Manager.
+moConsole::Init > Initializing Effects Manager.
+*****Initializing __console__ *****
+*****moMoldeoObject::Init > for plugin: __console__ config: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\dibujo.mol label: __console__ is OK!
+moConsole::Init > mol project opening....success 
+moConsole::Init > Initializing Resource Manager.  app path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing data path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\ config: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\dibujo.mol render mode: 0 screen size: 1024x768 render size: 1024x768
+moResourceManager::Init > Initializing Embedded Resources.
+moResourceManager::Init > Initializing Debug Man Resource.
+moResourceManager::Init > Initializing Net Man Resource.
+moResourceManager::Init > Initializing File Man Resource.
+moResourceManager::Init > Initializing Data Man Resource.
+ moDataSessionConfig() > m_AppPath: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing
+ moDataSessionConfig() > m_ConsoleConfigName: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\dibujo.mol
+ moDataSessionConfig() > m_SessionFileName fixed to: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\\sesion.mos
+moDataSessionConfig > Loaded D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\\sesion.mos
+ moDataSessionConfig() > m_AppDataPath: ../../data Exists: 0
+ moDataSessionConfig() > exeFile Path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\SVNSOURCEFORGE\binaries\bin\win\moldeoplayersdl2.exe
+D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\SVNSOURCEFORGE\binaries\bin\win\\../../data doesn't exists > adding absolute path: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\SVNSOURCEFORGE\binaries\bin\win\\../../data
+ moDataSessionConfig() > m_DataPath: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\preeffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\effects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\posteffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\mastereffects
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\resources
+MOL ERROR ===>>> Directory doesn´t exists:../../plugins\iodevices
+moResourceManager::Init > Initializing Filter Man Resource.
+moResourceManager::Init > Initializing Time Man Resource.
+moResourceManager::Init > Initializing GL Man Resource.
+moResourceManager::Init > Initializing FrameBuffer Man Resource.
+moResourceManager::Init > Initializing Texture Man Resource.
+default bpp: 32 colortype:4 > red_mask: 255 green_mask:6528016711680 blue_mask:
+moResourceManager::Init > Initializing Decoder Manager Resource.
+moResourceManager::Init > Initializing Render Man Resource.
+moRenderManager::Init > Setting Render Manager Mode to:0
+moRenderManager::Init > Setting Render Manager for Render: 1024x768 for Screen: 1024x768
+moRenderManager::Init > Using GLEW 1.9.0
+moRenderManager::Init >       glActiveTextureARB: 1551704912
+moRenderManager::Init >       glMultiTexCoord2fARB: 1551836576
+moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
+moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
+moRenderManager::Init >       GLEW_ARB_multitexture: 1
+moRenderManager::Init >       GL_EXT_gpu_shader4: 1
+moRenderManager::Init >       GLEW_EXT_geometry_shader4: 1
+moRenderManager::Init >       GLEW_ARB_imaging: 1
+moRenderManager::Init >       GLEW_ARB_shading_language_100: 1
+moRenderManager::Init >       GLEW_EXT_framebuffer_object: 1
+moRenderManager::Init > Using framebuffer_object: creating one fbo per predefined textures (4). 
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moResourceManager::Init > Initializing Math Man Resource.
+moResourceManager::Init > Initializing Shader Man Resource.
+No shadermanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Font Man Resource.
+moResourceManager::Init > Initializing GUI Man Resource.
+moResourceManager::Init > Initializing Sound Man Resource.
+No soundmanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Video Man Resource.
+No videomanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Model Man Resource.
+moResourceManager::Init > Initializing Script Man Resource.
+moLuaResourceManager constructor > L: 48012512
+moResourceManager:: Embedded Resources Ready.
+moMoldeoObject::CreateConnectors > Calling once. object: __console__ config: D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\dibujo.mol label:__console__
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type TEXT name: devices
+moMoldeoObject::CreateConnectors > Init param type TEXT name: preeffect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: effect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: posteffect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: mastereffect
+moMoldeoObject::CreateConnectors > Init param type TEXT name: resources
+moMoldeoObject::CreateConnectors > Init param type NUM name: mastereffects_on
+moMoldeoObject::CreateConnectors > Init param type NUM name: fulldebug
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: consolescript
+moMoldeoObject::CreateConnectors > Init param type TEXT name: outputmode
+moMoldeoObject::CreateConnectors > Init param type TEXT name: outputresolution
+moMoldeoObject::CreateConnectors > Init param type TEXT name: rendermode
+moMoldeoObject::CreateConnectors > Init param type TEXT name: renderresolution
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip1
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip2
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip3
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type NUM name: screenshots
+moMoldeoObject::CreateConnectors > Init param type NUM name: videoshots
+moMoldeoObject::CreateConnectors > loaded params & values for Object: __console__ config:D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\dibujo.mol label:__console__
+moMoldeoObject::CreateConnectors > OK! Object: __console__ config:D:\0_DESARROLLO\0_MOLDEO\0_desarrollo\GITHUB\moldeo\moldeoinstaller\data\samples\LiveDrawing\dibujo.mol label: __console__
+MOL ERROR ===>>> moConfigDefinition::SetParamIndex[__console__] > defined array entry index not in range : 20 Max Indexes : 20
+MOL ERROR ===>>> {'objectname': '__console__','objectclass': 'moConsole'}
+MOL ERROR ===>>> <moConsole>[__console__]::Init()_moDefineParamIndex > Config parameter "videoshots"  warning. Bad indexation could cause errors.
+*****Initializing keyboard *****
+*****moMoldeoObject::Init > for plugin: keyboard config: keyboard label: keyboard is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: keyboard config: keyboard label:keyboard
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type TEXT name: keyboard
+moMoldeoObject::CreateConnectors > Init param type TEXT name: code
+moMoldeoObject::CreateConnectors > Init param type TEXT name: panelvirtual
+moMoldeoObject::CreateConnectors > Init param type TEXT name: channel0virtual
+moMoldeoObject::CreateConnectors > Init param type TEXT name: masterchannelvirtual
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: keyboard config:keyboard label:keyboard
+moMoldeoObject::CreateConnectors > OK! Object: keyboard config:keyboard label: keyboard
+KEYBOARD: ncodes:108
+strcod: T_ESCAPE_BTN 
+cod: 0
+type: 1
+type: 1
+strcod: T_BACKSPACE_BTN 
+cod: 1
+type: 1
+type: 1
+strcod: T_ENTER_BTN 
+cod: 2
+type: 1
+type: 1
+strcod: T_DELETE_BTN 
+cod: 3
+type: 1
+type: 1
+strcod: T_SDLK_UP_BTN 
+cod: 4
+type: 1
+type: 1
+strcod: T_SDLK_DOWN_BTN 
+cod: 5
+type: 1
+type: 1
+strcod: T_SDLK_LEFT_BTN 
+cod: 6
+type: 1
+type: 1
+strcod: T_SDLK_RIGHT_BTN 
+cod: 7
+type: 1
+type: 1
+strcod: T_F1_BTN 
+cod: 8
+type: 1
+type: 1
+strcod: T_F2_BTN 
+cod: 9
+type: 1
+type: 1
+strcod: T_F3_BTN 
+cod: 10
+type: 1
+type: 1
+strcod: T_F4_BTN 
+cod: 11
+type: 1
+type: 1
+strcod: T_F5_BTN 
+cod: 12
+type: 1
+type: 1
+strcod: T_F6_BTN 
+cod: 13
+type: 1
+type: 1
+strcod: T_F7_BTN 
+cod: 14
+type: 1
+type: 1
+strcod: T_F8_BTN 
+cod: 15
+type: 1
+type: 1
+strcod: T_F9_BTN 
+cod: 16
+type: 1
+type: 1
+strcod: T_F10_BTN 
+cod: 17
+type: 1
+type: 1
+strcod: T_F11_BTN 
+cod: 18
+type: 1
+type: 1
+strcod: T_F12_BTN 
+cod: 19
+type: 1
+type: 1
+strcod: T_SDLK_HOME_BTN 
+cod: 20
+type: 1
+type: 1
+strcod: T_SDLK_END_BTN 
+cod: 21
+type: 1
+type: 1
+strcod: T_SDLK_PAGEUP_BTN 
+cod: 22
+type: 1
+type: 1
+strcod: T_SDLK_PAGEDOWN_BTN 
+cod: 23
+type: 1
+type: 1
+strcod: T_SDLK_RSHIFT_BTN 
+cod: 24
+type: 1
+type: 1
+strcod: T_SDLK_LSHIFT_BTN 
+cod: 25
+type: 1
+type: 1
+strcod: T_SDLK_RCTRL_BTN 
+cod: 26
+type: 1
+type: 1
+strcod: T_SDLK_LCTRL_BTN 
+cod: 27
+type: 1
+type: 1
+strcod: T_SDLK_RALT_BTN 
+cod: 28
+type: 1
+type: 1
+strcod: T_SDLK_LALT_BTN 
+cod: 29
+type: 1
+type: 1
+strcod: T_SDLK_TAB_BTN 
+cod: 30
+type: 1
+type: 1
+strcod: T_SDLK_RETURN_BTN 
+cod: 31
+type: 1
+type: 1
+strcod: T_SDLK_PLUS 
+cod: 32
+type: 1
+type: 1
+strcod: T_SDLK_MINUS 
+cod: 33
+type: 1
+type: 1
+strcod: T_SDLK_1_PUL 
+cod: 34
+type: 0
+type: 0
+strcod: T_SDLK_2_PUL 
+cod: 35
+type: 0
+type: 0
+strcod: T_SDLK_3_PUL 
+cod: 36
+type: 0
+type: 0
+strcod: T_SDLK_4_PUL 
+cod: 37
+type: 0
+type: 0
+strcod: T_SDLK_5_PUL 
+cod: 38
+type: 0
+type: 0
+strcod: T_SDLK_6_PUL 
+cod: 39
+type: 0
+type: 0
+strcod: T_SDLK_7_PUL 
+cod: 40
+type: 0
+type: 0
+strcod: T_SDLK_8_PUL 
+cod: 41
+type: 0
+type: 0
+strcod: T_SDLK_9_PUL 
+cod: 42
+type: 0
+type: 0
+strcod: T_SDLK_0_PUL 
+cod: 43
+type: 0
+type: 0
+strcod: T_SDLK_Q_PUL 
+cod: 44
+type: 0
+type: 0
+strcod: T_SDLK_W_PUL 
+cod: 45
+type: 0
+type: 0
+strcod: T_SDLK_E_PUL 
+cod: 46
+type: 0
+type: 0
+strcod: T_SDLK_R_PUL 
+cod: 47
+type: 0
+type: 0
+strcod: T_SDLK_T_PUL 
+cod: 48
+type: 0
+type: 0
+strcod: T_SDLK_Y_PUL 
+cod: 49
+type: 0
+type: 0
+strcod: T_SDLK_U_PUL 
+cod: 50
+type: 0
+type: 0
+strcod: T_SDLK_I_PUL 
+cod: 51
+type: 0
+type: 0
+strcod: T_SDLK_O_PUL 
+cod: 52
+type: 0
+type: 0
+strcod: T_SDLK_P_PUL 
+cod: 53
+type: 0
+type: 0
+strcod: T_SDLK_A_PUL 
+cod: 54
+type: 0
+type: 0
+strcod: T_SDLK_S_PUL 
+cod: 55
+type: 0
+type: 0
+strcod: T_SDLK_D_PUL 
+cod: 56
+type: 0
+type: 0
+strcod: T_SDLK_F_PUL 
+cod: 57
+type: 0
+type: 0
+strcod: T_SDLK_G_PUL 
+cod: 58
+type: 0
+type: 0
+strcod: T_SDLK_H_PUL 
+cod: 59
+type: 0
+type: 0
+strcod: T_SDLK_J_PUL 
+cod: 60
+type: 0
+type: 0
+strcod: T_SDLK_K_PUL 
+cod: 61
+type: 0
+type: 0
+strcod: T_SDLK_L_PUL 
+cod: 62
+type: 0
+type: 0
+strcod: T_SDLK_SEMICOLON 
+cod: 63
+type: 0
+type: 0
+strcod: T_SDLK_Z_PUL 
+cod: 64
+type: 0
+type: 0
+strcod: T_SDLK_X_PUL 
+cod: 65
+type: 0
+type: 0
+strcod: T_SDLK_C_PUL 
+cod: 66
+type: 0
+type: 0
+strcod: T_SDLK_V_PUL 
+cod: 67
+type: 0
+type: 0
+strcod: T_SDLK_B_PUL 
+cod: 68
+type: 0
+type: 0
+strcod: T_SDLK_N_PUL 
+cod: 69
+type: 0
+type: 0
+strcod: T_SDLK_M_PUL 
+cod: 70
+type: 0
+type: 0
+strcod: T_SDLK_COMMA 
+cod: 71
+type: 0
+type: 0
+strcod: T_SDLK_PERIOD 
+cod: 72
+type: 0
+type: 0
+strcod: T_SDLK_SLASH 
+cod: 73
+type: 0
+type: 0
+strcod: T_SDLK_Q_BTN 
+cod: 74
+type: 1
+type: 1
+strcod: T_SDLK_A_BTN 
+cod: 75
+type: 1
+type: 1
+strcod: T_SDLK_P_BTN 
+cod: 76
+type: 1
+type: 1
+strcod: T_SDLK_L_BTN 
+cod: 77
+type: 1
+type: 1
+strcod: T_SDLK_O_BTN 
+cod: 78
+type: 1
+type: 1
+strcod: T_SDLK_K_BTN 
+cod: 79
+type: 1
+type: 1
+strcod: T_SDLK_W_BTN 
+cod: 80
+type: 1
+type: 1
+strcod: T_SDLK_S_BTN 
+cod: 81
+type: 1
+type: 1
+strcod: T_SDLK_J_BTN 
+cod: 82
+type: 1
+type: 1
+strcod: T_SDLK_D_BTN 
+cod: 83
+type: 1
+type: 1
+strcod: T_SDLK_G_BTN 
+cod: 84
+type: 1
+type: 1
+strcod: T_SDLK_E_BTN 
+cod: 85
+type: 1
+type: 1
+strcod: T_SDLK_I_BTN 
+cod: 86
+type: 1
+type: 1
+strcod: T_SDLK_M_BTN 
+cod: 87
+type: 1
+type: 1
+strcod: T_SDLK_N_BTN 
+cod: 88
+type: 1
+type: 1
+strcod: T_SDLK_C_BTN 
+cod: 89
+type: 1
+type: 1
+strcod: T_SDLK_O_BTN 
+cod: 90
+type: 1
+type: 1
+strcod: T_SDLK_R_BTN 
+cod: 91
+type: 1
+type: 1
+strcod: T_SDLK_H_BTN 
+cod: 92
+type: 1
+type: 1
+strcod: T_SDLK_F_BTN 
+cod: 93
+type: 1
+type: 1
+strcod: T_SDLK_X_BTN 
+cod: 94
+type: 1
+type: 1
+strcod: T_SDLK_Z_BTN 
+cod: 95
+type: 1
+type: 1
+strcod: T_SDLK_V_BTN 
+cod: 96
+type: 1
+type: 1
+strcod: T_SDLK_B_BTN 
+cod: 97
+type: 1
+type: 1
+strcod: T_SDLK_1_BTN 
+cod: 98
+type: 1
+type: 1
+strcod: T_SDLK_2_BTN 
+cod: 99
+type: 1
+type: 1
+strcod: T_SDLK_3_BTN 
+cod: 100
+type: 1
+type: 1
+strcod: T_SDLK_4_BTN 
+cod: 101
+type: 1
+type: 1
+strcod: T_SDLK_5_BTN 
+cod: 102
+type: 1
+type: 1
+strcod: T_SDLK_6_BTN 
+cod: 103
+type: 1
+type: 1
+strcod: T_SDLK_7_BTN 
+cod: 104
+type: 1
+type: 1
+strcod: T_SDLK_8_BTN 
+cod: 105
+type: 1
+type: 1
+strcod: T_SDLK_9_BTN 
+cod: 106
+type: 1
+type: 1
+strcod: T_SDLK_0_BTN 
+cod: 107
+type: 1
+type: 1
+*****Initializing mouse *****
+*****moMoldeoObject::Init > for plugin: mouse config: mouse label: mouse is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: mouse config: mouse label:mouse
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type TEXT name: buttons
+moMoldeoObject::CreateConnectors > Init param type TEXT name: wheels
+moMoldeoObject::CreateConnectors > Init param type TEXT name: position
+moMoldeoObject::CreateConnectors > Init param type TEXT name: code
+moMoldeoObject::CreateConnectors > Init param type TEXT name: channel0virtual
+moMoldeoObject::CreateConnectors > Init param type TEXT name: masterchannelvirtual
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: mouse config:mouse label:mouse
+moMoldeoObject::CreateConnectors > OK! Object: mouse config:mouse label: mouse
+*****Initializing tablet *****
+*****moMoldeoObject::Init > for plugin: tablet config: tablet label: tablet is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: tablet config: tablet label:tablet
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type NUM name: pen_code
+moMoldeoObject::CreateConnectors > Init param type NUM name: eraser_code
+moMoldeoObject::CreateConnectors > Init param type TEXT name: pen
+moMoldeoObject::CreateConnectors > Init param type TEXT name: code
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > loaded params & values for Object: tablet config:tablet label:tablet
+moMoldeoObject::CreateConnectors > OK! Object: tablet config:tablet label: tablet
