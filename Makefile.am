@@ -1,5 +1,5 @@
 ACLOCAL_AMFLAGS=-I m4
-SUBDIRS = basic samples
+SUBDIRS = samples
 
 EXTRA_DIST = AUTHORS ChangeLog NEWS README
 
