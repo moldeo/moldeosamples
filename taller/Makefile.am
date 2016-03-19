@@ -1,0 +1,40 @@
+
+datadir = ${prefix}/share/moldeo
+fontsdir = ${datadir}/fonts
+cursorsdir = ${datadir}/cursors
+iconsdir = ${datadir}/icons
+desktopdir = ${prefix}/share/applications
+pixmapsdir = ${prefix}/share/pixmaps
+testdir = ${datadir}/test
+testsimpledir = ${testdir}
+tallerdir = ${datadir}/taller
+s0dir = ${tallerdir}/Basico
+s0rdir = ${tallerdir}/Basico/RECURSOS
+s0pdir = ${tallerdir}/Basico/previewshots
+s1dir = ${tallerdir}/ChatInteractivo
+s1hdir = ${tallerdir}/ChatInteractivo/haarcascades
+s1pdir = ${tallerdir}/ChatInteractivo/previewshots
+s2dir = ${tallerdir}/CicloDelAgua
+s2pdir = ${tallerdir}/CicloDelAgua/previewshots
+s3dir = ${tallerdir}/Collage_Animado
+s3pdir = ${tallerdir}/Collage_Animado/previewshots
+s4dir = ${tallerdir}/Elemental
+s4pdir = ${tallerdir}/Elemental/previewshots
+s5dir = ${tallerdir}/VisualArt
+s5pdir = ${tallerdir}/VisualArt/previewshots
+
+dist_s0_DATA = Basico/*.*
+dist_s0r_DATA = Basico/RECURSOS/*.*
+dist_s0p_DATA = Basico/previewshots/*.*
+dist_s1_DATA = ChatInteractivo/*.*
+dist_s1h_DATA = ChatInteractivo/haarcascades/*.*
+dist_s1p_DATA = ChatInteractivo/previewshots/*.*
+dist_s2_DATA = CicloDelAgua/*.*
+dist_s2p_DATA = CicloDelAgua/previewshots/*.*
+dist_s3_DATA = Collage_Animado/*.*
+dist_s3p_DATA = Collage_Animado/previewshots/*.*
+dist_s4_DATA = Elemental/*.*
+dist_s4p_DATA = Elemental/previewshots/*.*
+dist_s5_DATA = VisualArt/*.*
+dist_s5p_DATA = VisualArt/previewshots/*.*
+

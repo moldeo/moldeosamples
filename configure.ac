@@ -18,6 +18,8 @@ PKG_CHECK_MODULES([LIBMOLDEO], [libmoldeo] ,has_libmoldeo=yes)
 dnl Makefile outputs
 AC_OUTPUT([
 Makefile
+basic/Makefile
+taller/Makefile
 samples/Makefile
 ])
 
