@@ -25,14 +25,6 @@
                 <D type="TXT"></D>
             </VAL>
             <VAL>
-                <D type="TXT">netoscout</D>
-                <D type="TXT">moldeoapioscin</D>
-                <D type="TXT">moldeoapioscin</D>
-                <D type="NUM">0</D>
-                <D type="NUM">1</D>
-                <D type="TXT"></D>
-            </VAL>
-            <VAL>
                 <D type="TXT">netoscin</D>
                 <D type="TXT">moldeoapioscin</D>
                 <D type="TXT">moldeoapioscin</D>
@@ -40,7 +32,7 @@
                 <D type="NUM">1</D>
                 <D type="TXT"></D>
             </VAL>
-			<VAL>
+            <VAL>
                 <D type="TXT">midi</D>
                 <D type="TXT">midi</D>
                 <D type="TXT">midi</D>
@@ -66,6 +58,14 @@
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">W</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">sound3d</D>
+                <D type="TXT">sound3d</D>
+                <D type="TXT">sound3d</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">A</D>
             </VAL>
         </PARAM>
         <PARAM name="posteffect" type="MOLDEOOBJECT" />
