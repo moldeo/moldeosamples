@@ -55,10 +55,3 @@ taller/ChatInteractivo/shaders/*.*
 taller/ChatInteractivo/shaders/painter/*.*
 taller/VisualArt/*.*
 taller/VisualArt/previewshots/*.*
-taller/VisualArt/RECURSOS/*.*
-taller/VisualArt/shaders/*.*
-taller/VisualArt/shaders/livedrawing/*.*
-taller/VisualArt/shaders/painter/*.*
-taller/VisualArt/shaders/kltgpu/*.*
-taller/VisualArt/shaders/kltgpu/ati/*.*
-taller/VisualArt/shaders/kltgpu/nvidia/*.*
