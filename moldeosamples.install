@@ -17,11 +17,11 @@ samples/Tunel/previewshots/*.*
 samples/Cameras/*.*
 samples/Cameras/previewshots/*.*
 samples/Dibujo_con_luz/*.*
+samples/Dibujo_con_luz/previewshots/*.*
 samples/SimpleProject/*.*
 samples/SimpleProject/previewshots/*.*
 samples/Camaleon/*.*
 samples/Camaleon/previewshots/*.*
-samples/MIDI_IMAGESOUND/*.*
 samples/ShaderExample/*.*
 samples/ShaderExample/previewshots/*.*
 samples/ShaderExample/shaders/*.*
