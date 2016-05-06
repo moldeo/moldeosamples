@@ -1,6 +1,10 @@
 # http://www.gnu.org/software/automake
 
 Makefile.in
+sesion.mos
+moldeoerrors.txt
+moldeolog.txt
+cout.txt
 
 # http://www.gnu.org/software/autoconf
 
