@@ -5,10 +5,10 @@ rm moldeosamples.dirs
 rm moldeosamples.install
 touch moldeosamples.dirs
 touch moldeosamples.install
-datadir="/usr/share/moldeo/"
-find basic -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
-find samples -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
-find taller -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
+export mdatadir="/usr/share/moldeo/"
+find basic -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadir"{}/*.*" >> moldeosamples.install' \;
+find samples -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadir"{}/*.*" >> moldeosamples.install' \;
+find taller -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadir"{}/*.*" >> moldeosamples.install' \;
 
 #subir a Moldeo.org
 #find midi -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
