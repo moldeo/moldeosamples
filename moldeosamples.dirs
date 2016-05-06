@@ -25,7 +25,6 @@ samples/Camaleon/previewshots
 samples/ShaderExample
 samples/ShaderExample/previewshots
 samples/ShaderExample/shaders
-samples/ShaderExample/shaders/painter
 samples/ParticlesBounce
 samples/ParticlesBounce/previewshots
 samples/Snow_Particles
