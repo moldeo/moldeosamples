@@ -15,7 +15,22 @@
                 <D type="TXT"></D>
             </VAL>
         </PARAM>
-        <PARAM name="devices" type="MOLDEOOBJECT" />
+        <PARAM name="devices" type="MOLDEOOBJECT" >
+            <VAL>
+                <D type="TXT">netoscin</D>
+                <D type="TXT">moldeoapioscin</D>
+                <D type="TXT">moldeoapioscin</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">netoscout</D>
+                <D type="TXT">moldeoapioscout</D>
+                <D type="TXT">moldeoapioscout</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+            </VAL>
+        </PARAM>
         <PARAM name="preeffect" type="MOLDEOOBJECT">
             <VAL>
                 <D type="TXT">erase</D>
