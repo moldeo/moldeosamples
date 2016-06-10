@@ -10,7 +10,22 @@
                 <D type="TXT"></D>
             </VAL>
         </PARAM>
-        <PARAM name="devices" type="TEXT" />
+        <PARAM name="devices" type="TEXT">
+            <VAL>
+                <D type="TXT">netoscin</D>
+                <D type="TXT">moldeoapioscin</D>
+                <D type="TXT">moldeoapioscin</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">netoscout</D>
+                <D type="TXT">moldeoapioscout</D>
+                <D type="TXT">moldeoapioscout</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+            </VAL>
+        </PARAM>
         <PARAM name="preeffect" type="TEXT">
             <VAL>
                 <D type="TXT">erase</D>
@@ -25,7 +40,7 @@
                 <D type="TXT">mirrorg</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">D</D>
+                <D type="TXT">D</D>
             </VAL>
         </PARAM>
         <PARAM name="effect" type="TEXT">
@@ -35,7 +50,7 @@
                 <D type="TXT">tunel2</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">W</D>
+                <D type="TXT">W</D>
             </VAL>
             <VAL>
                 <D type="TXT">tunel</D>
@@ -43,7 +58,7 @@
                 <D type="TXT">tunel21</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">A</D>
+                <D type="TXT">A</D>
             </VAL>
             <VAL>
                 <D type="TXT">tunel</D>
@@ -51,7 +66,7 @@
                 <D type="TXT">tunel22</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">S</D>
+                <D type="TXT">S</D>
             </VAL>
         </PARAM>
         <PARAM name="posteffect" type="TEXT" />
