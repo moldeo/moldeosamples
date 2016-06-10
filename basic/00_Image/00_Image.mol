@@ -15,7 +15,7 @@
                 <D type="TXT"></D>
             </VAL>
         </PARAM>
-        <PARAM name="devices" type="MOLDEOOBJECT">
+        <PARAM name="devices" type="MOLDEOOBJECT" >
             <VAL>
                 <D type="TXT">netoscin</D>
                 <D type="TXT">moldeoapioscin</D>
