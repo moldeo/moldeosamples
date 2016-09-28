@@ -46,7 +46,7 @@
                 <D type="TXT">ola</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT"></D>
+                <D type="TXT">A</D>
             </VAL>
         </PARAM>
         <PARAM name="preeffect" type="MOLDEOOBJECT">
