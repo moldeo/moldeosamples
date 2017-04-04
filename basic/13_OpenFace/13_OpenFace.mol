@@ -45,29 +45,45 @@
                 <D type="TXT">W</D>
             </VAL>
             <VAL>
-                <D type="TXT">icon</D>
-                <D type="TXT">icon</D>
-                <D type="TXT">icon</D>
+                <D type="TXT">assimp</D>
+                <D type="TXT">SOMBRERO</D>
+                <D type="TXT">SOMBRERO</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">A</D>
             </VAL>
-<VAL>
-                <D type="TXT">icon</D>
-                <D type="TXT">MASCARA</D>
-                <D type="TXT">MASCARA</D>
+            <VAL>
+                <D type="TXT">assimp</D>
+                <D type="TXT">MASK</D>
+                <D type="TXT">MASK</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">S</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">iconcvthresh</D>
+                <D type="TXT">iconcvthresh</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">J</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">iconcvblobs</D>
+                <D type="TXT">iconcvblobs</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">K</D>
             </VAL>
         </PARAM>
         <PARAM name="posteffect" type="MOLDEOOBJECT" />
         <PARAM name="mastereffect" type="MOLDEOOBJECT" />
         <PARAM name="resources" type="MOLDEOOBJECT">
             <VAL>
-                <D type="TXT">opencv</D>
-                <D type="TXT">opencv</D>
-                <D type="TXT">opencv</D>
+                <D type="TXT">openface</D>
+                <D type="TXT">openface</D>
+                <D type="TXT">openface</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">I</D>
