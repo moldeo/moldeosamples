@@ -61,6 +61,22 @@
                 <D type="TXT">S</D>
             </VAL>
             <VAL>
+                <D type="TXT">particlessimple</D>
+                <D type="TXT">CONDENSACION</D>
+                <D type="TXT">CONDENSACION</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">F</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">particlessimple</D>
+                <D type="TXT">PRECIPITACION</D>
+                <D type="TXT">PRECIPITACION</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">G</D>
+            </VAL>
+            <VAL>
                 <D type="TXT">icon</D>
                 <D type="TXT">iconcvthresh</D>
                 <D type="TXT">iconcvthresh</D>
@@ -84,6 +100,14 @@
                 <D type="TXT">openface</D>
                 <D type="TXT">openface</D>
                 <D type="TXT">openface</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">I</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">videomanager</D>
+                <D type="TXT">videomanager</D>
+                <D type="TXT">videomanager</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">I</D>
