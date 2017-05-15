@@ -1,20 +1,13 @@
 Source: moldeosamples
-Section: unknown
+Section: graphics
 Priority: optional
-Maintainer: Moldeo Interactive <info@moldeointeractive.com.ar>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev
-Standards-Version: 3.9.4
+Maintainer: Moldeo Software <info@moldeo.org>
+Build-Depends: debhelper (>=9),autotools-dev
+Standards-Version: 3.9.6
 Homepage: http://www.moldeo.org
-#Vcs-Git: git://git.debian.org/collab-maint/moldeosamples.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/moldeosamples.git;a=summary
 
 Package: moldeosamples
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Moldeo Samples
- Moldeo Software Sample Projects
-
-Package: moldeosamples-doc
 Architecture: all
-Description: Moldeo Samples Doc
+Depends: ${misc:Depends}
+Description: Moldeo Samples
  Moldeo Software Sample Projects

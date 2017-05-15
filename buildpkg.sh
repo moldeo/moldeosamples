@@ -6,9 +6,10 @@ rm moldeosamples.install
 touch moldeosamples.dirs
 touch moldeosamples.install
 export mdatadir="/usr/share/moldeo/"
-find basic -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadir"{}/*.*" >> moldeosamples.install' \;
-find samples -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadir"{}/*.*" >> moldeosamples.install' \;
-find taller -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadir"{}/*.*" >> moldeosamples.install' \;
+export mdatadirinstall="debian/moldeosamples/usr/share/moldeo/"
+find basic -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadirinstall"{}/*.*" >> moldeosamples.install' \;
+find samples -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadirinstall"{}/*.*" >> moldeosamples.install' \;
+find taller -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadirinstall"{}/*.*" >> moldeosamples.install' \;
 
 #subir a Moldeo.org
 #find midi -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
@@ -74,7 +75,7 @@ echo "extracting..."
 }
 
 cd deb/moldeosamples-*
-dh_make -m -e info@moldeointeractive.com.ar -p moldeosamples
+dh_make -i -e info@moldeo.org -p moldeosamples -c gpl3
 gedit ../../control.amd64.11.10 debian/control ../../moldeosamples.dirs debian/moldeosamples.dirs ../../moldeosamples.install debian/moldeosamples.install debian/changelog
 
 echo " 

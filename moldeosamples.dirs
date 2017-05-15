@@ -1,54 +1,99 @@
 /usr/share/moldeo/basic
-/usr/share/moldeo/basic/00_Image
+/usr/share/moldeo/basic/13_OpenFace
+/usr/share/moldeo/basic/13_OpenFace/barbas
+/usr/share/moldeo/basic/13_OpenFace/save
+/usr/share/moldeo/basic/13_OpenFace/classifiers
+/usr/share/moldeo/basic/13_OpenFace/3D
+/usr/share/moldeo/basic/13_OpenFace/train
+/usr/share/moldeo/basic/13_OpenFace/3D (2)
+/usr/share/moldeo/basic/13_OpenFace/3D (2)/barba-2
+/usr/share/moldeo/basic/13_OpenFace/3D (2)/barba-1
+/usr/share/moldeo/basic/13_OpenFace/3D (2)/bigote-1
+/usr/share/moldeo/basic/13_OpenFace/3D (2)/images
+/usr/share/moldeo/basic/13_OpenFace/model
+/usr/share/moldeo/basic/13_OpenFace/model/patch_experts
+/usr/share/moldeo/basic/13_OpenFace/model/detection_validation
+/usr/share/moldeo/basic/13_OpenFace/model/model_eye
+/usr/share/moldeo/basic/13_OpenFace/model/model_eye/patch_experts
+/usr/share/moldeo/basic/13_OpenFace/model/model_eye/pdms
+/usr/share/moldeo/basic/13_OpenFace/model/pdms
+/usr/share/moldeo/basic/13_OpenFace/model/model_inner
+/usr/share/moldeo/basic/13_OpenFace/model/model_inner/patch_experts
+/usr/share/moldeo/basic/13_OpenFace/model/model_inner/pdms
+/usr/share/moldeo/basic/13_OpenFace/images
+/usr/share/moldeo/basic/13_OpenFace/moldeo_screenshots
+/usr/share/moldeo/basic/13_OpenFace/3D (3)
+/usr/share/moldeo/basic/13_OpenFace/3D (3)/images
+/usr/share/moldeo/basic/13_OpenFace/3D (3)/stuff
+/usr/share/moldeo/basic/13_OpenFace/3D (3)/stuff/barba-2
+/usr/share/moldeo/basic/13_OpenFace/3D (3)/stuff/barba-1
+/usr/share/moldeo/basic/13_OpenFace/3D (3)/stuff/bigote-1
+/usr/share/moldeo/basic/13_OpenFace/3D (3)/stuff/bigote-1/images
+/usr/share/moldeo/basic/13_OpenFace/3D (3)/stuff/PirateHat
+/usr/share/moldeo/basic/13_OpenFace/previewshots
+/usr/share/moldeo/basic/13_OpenFace/AU_predictors
+/usr/share/moldeo/basic/13_OpenFace/AU_predictors/svm_combined
+/usr/share/moldeo/basic/13_OpenFace/AU_predictors/svr_combined
+/usr/share/moldeo/basic/13_OpenFace/bigotes
+/usr/share/moldeo/basic/13_OpenFacetemp_render
 /usr/share/moldeo/basic/10_OpenCV
 /usr/share/moldeo/basic/10_OpenCV/hogcascades
 /usr/share/moldeo/basic/10_OpenCV/haarcascades
-/usr/share/moldeo/basic/09_OpenCV
-/usr/share/moldeo/basic/09_OpenCV/haarcascades
 /usr/share/moldeo/basic/08_Camera
+/usr/share/moldeo/basic/00_Image
+/usr/share/moldeo/basic/12_OpenCVRecognition
+/usr/share/moldeo/basic/12_OpenCVRecognition/save
+/usr/share/moldeo/basic/12_OpenCVRecognition/train
+/usr/share/moldeo/basic/12_OpenCVRecognition/haarcascades
+/usr/share/moldeo/basic/01_Icon
+/usr/share/moldeo/basic/14_Assimp
+/usr/share/moldeo/basic/14_Assimp/i8cotix2ujuo-Cap
+/usr/share/moldeo/basic/14_Assimp/i8cotix2ujuo-Cap/__MACOSX
 /usr/share/moldeo/basic/11_OpenCVMotion
 /usr/share/moldeo/basic/11_OpenCVMotion/hogcascades
 /usr/share/moldeo/basic/11_OpenCVMotion/haarcascades
+/usr/share/moldeo/basic/09_OpenCV
+/usr/share/moldeo/basic/09_OpenCV/haarcascades
+/usr/share/moldeo/basic/13_OpenFacetemp_render001
 /usr/share/moldeo/basic/02_Plane
-/usr/share/moldeo/basic/01_Icon
 /usr/share/moldeo/samples
-/usr/share/moldeo/samples/Tunel
-/usr/share/moldeo/samples/Tunel/previewshots
-/usr/share/moldeo/samples/Cameras
-/usr/share/moldeo/samples/Cameras/previewshots
-/usr/share/moldeo/samples/Dibujo_con_luz
-/usr/share/moldeo/samples/Dibujo_con_luz/previewshots
-/usr/share/moldeo/samples/SimpleProject
-/usr/share/moldeo/samples/SimpleProject/previewshots
 /usr/share/moldeo/samples/Camaleon
 /usr/share/moldeo/samples/Camaleon/previewshots
-/usr/share/moldeo/samples/ShaderExample
-/usr/share/moldeo/samples/ShaderExample/previewshots
-/usr/share/moldeo/samples/ShaderExample/shaders
-/usr/share/moldeo/samples/ParticlesBounce
-/usr/share/moldeo/samples/ParticlesBounce/previewshots
-/usr/share/moldeo/samples/Snow_Particles
-/usr/share/moldeo/samples/Snow_Particles/previewshots
-/usr/share/moldeo/samples/ChannelControl
-/usr/share/moldeo/samples/ChannelControl/previewshots
+/usr/share/moldeo/samples/Tunel
+/usr/share/moldeo/samples/Tunel/previewshots
+/usr/share/moldeo/samples/Rain_Particles
+/usr/share/moldeo/samples/Rain_Particles/previewshots
 /usr/share/moldeo/samples/CamerasCircular
 /usr/share/moldeo/samples/CamerasCircular/previewshots
 /usr/share/moldeo/samples/ParticlesInteractive
 /usr/share/moldeo/samples/ParticlesInteractive/previewshots
-/usr/share/moldeo/samples/Rain_Particles
-/usr/share/moldeo/samples/Rain_Particles/previewshots
+/usr/share/moldeo/samples/SimpleProject
+/usr/share/moldeo/samples/SimpleProject/previewshots
+/usr/share/moldeo/samples/Dibujo_con_luz
+/usr/share/moldeo/samples/Dibujo_con_luz/previewshots
+/usr/share/moldeo/samples/ShaderExample
+/usr/share/moldeo/samples/ShaderExample/shaders
+/usr/share/moldeo/samples/ShaderExample/previewshots
+/usr/share/moldeo/samples/ChannelControl
+/usr/share/moldeo/samples/ChannelControl/previewshots
+/usr/share/moldeo/samples/ParticlesBounce
+/usr/share/moldeo/samples/ParticlesBounce/previewshots
+/usr/share/moldeo/samples/Cameras
+/usr/share/moldeo/samples/Cameras/previewshots
+/usr/share/moldeo/samples/Snow_Particles
+/usr/share/moldeo/samples/Snow_Particles/previewshots
 /usr/share/moldeo/taller
 /usr/share/moldeo/taller/Collage_Animado
 /usr/share/moldeo/taller/Collage_Animado/previewshots
-/usr/share/moldeo/taller/Basico
-/usr/share/moldeo/taller/Basico/previewshots
-/usr/share/moldeo/taller/Basico/RECURSOS
-/usr/share/moldeo/taller/Elemental
-/usr/share/moldeo/taller/Elemental/previewshots
 /usr/share/moldeo/taller/CicloDelAgua
 /usr/share/moldeo/taller/CicloDelAgua/previewshots
-/usr/share/moldeo/taller/ChatInteractivo
-/usr/share/moldeo/taller/ChatInteractivo/previewshots
-/usr/share/moldeo/taller/ChatInteractivo/haarcascades
 /usr/share/moldeo/taller/VisualArt
 /usr/share/moldeo/taller/VisualArt/previewshots
+/usr/share/moldeo/taller/ChatInteractivo
+/usr/share/moldeo/taller/ChatInteractivo/haarcascades
+/usr/share/moldeo/taller/ChatInteractivo/previewshots
+/usr/share/moldeo/taller/Elemental
+/usr/share/moldeo/taller/Elemental/previewshots
+/usr/share/moldeo/taller/Basico
+/usr/share/moldeo/taller/Basico/RECURSOS
+/usr/share/moldeo/taller/Basico/previewshots
