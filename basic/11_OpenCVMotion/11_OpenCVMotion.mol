@@ -21,10 +21,10 @@
                 <D type="TXT">oscout</D>
                 <D type="TXT">oscout</D>
                 <D type="NUM">0</D>
-                <D type="NUM">1</D>
-                <D type="TXT">J</D>
+                <D type="NUM">0</D>
+                <D type="TXT">I</D>
             </VAL>
-	</PARAM>
+        </PARAM>
         <PARAM name="preeffect" type="MOLDEOOBJECT">
             <VAL>
                 <D type="TXT">erase</D>
@@ -32,7 +32,7 @@
                 <D type="TXT">erase</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT">S</D>
+                <D type="TXT">E</D>
             </VAL>
         </PARAM>
         <PARAM name="effect" type="MOLDEOOBJECT">
@@ -44,14 +44,22 @@
                 <D type="NUM">1</D>
                 <D type="TXT">W</D>
             </VAL>
-            <!--<VAL>
+            <VAL>
                 <D type="TXT">icon</D>
                 <D type="TXT">icon</D>
                 <D type="TXT">icon</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">A</D>
-            </VAL>-->
+            </VAL>
+            <VAL>
+                <D type="TXT">particlessimple</D>
+                <D type="TXT">particles</D>
+                <D type="TXT">particles</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">S</D>
+            </VAL>
         </PARAM>
         <PARAM name="posteffect" type="MOLDEOOBJECT" />
         <PARAM name="mastereffect" type="MOLDEOOBJECT" />
@@ -62,7 +70,7 @@
                 <D type="TXT">opencv</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT">S</D>
+                <D type="TXT">D</D>
             </VAL>
         </PARAM>
         <PARAM name="mastereffects_on" type="NUM" options="off,on">
