@@ -104,14 +104,14 @@
                 <D type="NUM">1</D>
                 <D type="TXT">I</D>
             </VAL>
-           <VAL>
+            <VAL>
                 <D type="TXT">videomanager</D>
                 <D type="TXT">videomanager</D>
                 <D type="TXT">videomanager</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">V</D>
-            </VAL>    
+            </VAL>
         </PARAM>
         <PARAM name="mastereffects_on" type="NUM" options="off,on">
             <VAL>

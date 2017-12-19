@@ -5,7 +5,19 @@
     <CONFIGPARAMS>
         <PARAM name="inlet" type="INLET">
             <VAL>
-                <D type="TXT">VARIABLE1</D>
+                <D type="TXT">KINECTSIGNS</D>
+                <D type="TXT">MESSAGES</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">OSCINMESSAGE</D>
+                <D type="TXT">MESSAGES</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">C45</D>
+                <D type="TXT">NUMERIC</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">C46</D>
                 <D type="TXT">NUMERIC</D>
             </VAL>
         </PARAM>
@@ -15,38 +27,40 @@
                 <D type="TXT"></D>
             </VAL>
         </PARAM>
-        <PARAM name="devices" type="MOLDEOOBJECT">
+        <PARAM name="devices" type="TEXT">
             <VAL>
-                <D type="TXT">ola</D>
-                <D type="TXT">ola</D>
-                <D type="TXT">ola</D>
+                <D type="TXT">kinect</D>
+                <D type="TXT">kinect</D>
+                <D type="TXT">kinect</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">K</D>
+            </VAL>                        
+        </PARAM>
+        <PARAM name="preeffect" type="TEXT">
+            <VAL>
+                <D type="TXT">erase</D>
+                <D type="TXT">erase</D>
+                <D type="TXT">erase</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">E</D>
+            </VAL>
+        </PARAM>
+        <PARAM name="effect" type="TEXT">
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">user</D>
+                <D type="TXT">user</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">A</D>
             </VAL>
         </PARAM>
-        <PARAM name="preeffect" type="MOLDEOOBJECT">
-            <VAL>
-                <D type="TXT">erase</D>
-                <D type="TXT">erase</D>
-                <D type="TXT">erase</D>
-                <D type="NUM">0</D>
-                <D type="NUM">1</D>
-            </VAL>
+        <PARAM name="posteffect" type="TEXT" />
+        <PARAM name="mastereffect" type="TEXT" />
+        <PARAM name="resources" type="TEXT">
         </PARAM>
-        <PARAM name="effect" type="MOLDEOOBJECT">
-            <VAL>
-                <D type="TXT">image</D>
-                <D type="TXT">image</D>
-                <D type="TXT">image</D>
-                <D type="NUM">0</D>
-                <D type="NUM">1</D>
-                <D type="TXT">W</D>
-            </VAL>
-        </PARAM>
-        <PARAM name="posteffect" type="MOLDEOOBJECT" />
-        <PARAM name="mastereffect" type="MOLDEOOBJECT" />
-        <PARAM name="resources" type="MOLDEOOBJECT" />
         <PARAM name="mastereffects_on" type="NUM" options="off,on">
             <VAL>
                 <D type="NUM">0</D>
@@ -57,14 +71,20 @@
                 <D type="NUM">0</D>
             </VAL>
         </PARAM>
-        <PARAM name="outputmode" type="TEXT">
+        <PARAM name="consolescript" type="SCRIPT">
             <VAL>
                 <D type="TXT"></D>
             </VAL>
         </PARAM>
+        <PARAM name="outputmode" type="TEXT">
+            <VAL>
+                <D type="TXT">AUTOPLAY</D>
+            </VAL>
+        </PARAM>
         <PARAM name="outputresolution" type="TEXT">
             <VAL>
-                <D type="TXT"></D>
+                <D type="TXT">1024</D>
+                <D type="TXT">768</D>
             </VAL>
         </PARAM>
         <PARAM name="rendermode" type="TEXT">
@@ -96,10 +116,16 @@
             <VAL>
                 <D type="NUM">0</D>
             </VAL>
+            <VAL>
+                <D type="NUM">15000</D>
+            </VAL>
         </PARAM>
         <PARAM name="videoshots" type="NUM">
             <VAL>
                 <D type="NUM">0</D>
+            </VAL>
+            <VAL>
+                <D type="NUM">2000</D>
             </VAL>
         </PARAM>
     </CONFIGPARAMS>

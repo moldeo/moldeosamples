@@ -45,20 +45,20 @@
                 <D type="TXT">W</D>
             </VAL>
             <VAL>
-                <D type="TXT">icon</D>
-                <D type="TXT">icon</D>
-                <D type="TXT">icon</D>
-                <D type="NUM">0</D>
-                <D type="NUM">1</D>
-                <D type="TXT">A</D>
-            </VAL>
-            <VAL>
                 <D type="TXT">particlessimple</D>
                 <D type="TXT">particles</D>
                 <D type="TXT">particles</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">S</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">icon</D>
+                <D type="TXT">icon</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">A</D>
             </VAL>
         </PARAM>
         <PARAM name="posteffect" type="MOLDEOOBJECT" />

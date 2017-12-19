@@ -45,8 +45,10 @@ Cada franja de particulas/rama:
 svgparticulas = {}
 imageindex = 1
 --svgparticulas[1] = { sx=1.0, sy=1.0, angle=1.57, tx=0.0, ty=0.0 }
-prototipo_xml_file = ConsoleDataPath.."/scripts/prototipo.svg"
+prototipo_xml_file = ConsoleDataPath.."/scripts/prototipo2.svg"
+
 local xmlTree,err = XmlParser:ParseXmlFile(prototipo_xml_file);
+
 for i,xmlNode in pairs(xmlTree.ChildNodes) do
     print(xmlNode.Name)
     if(xmlNode.Name=="image") then
@@ -56,24 +58,13 @@ for i,xmlNode in pairs(xmlTree.ChildNodes) do
             print(name..": "..value)
             svgparticulas[imageindex][name] = value
         end
-        svgparticulas[imageindex]["sx"] = 1.0
-        svgparticulas[imageindex]["sy"] = 1.0
+        svgparticulas[imageindex]["sx"] = svgparticulas[imageindex]["width"] / 1024
+        svgparticulas[imageindex]["sy"] = svgparticulas[imageindex]["height"] / 600
         svgparticulas[imageindex]["tx"] = 6.0*( svgparticulas[imageindex]["x"]+svgparticulas[imageindex]["width"]/2 - 1024/2) / 1024
         svgparticulas[imageindex]["ty"] = 4.0*( -svgparticulas[imageindex]["y"]-svgparticulas[imageindex]["height"]/2 +600/2) / 600
         svgparticulas[imageindex]["angle"] = 0.0
         print(svgparticulas[imageindex])
         imageindex = imageindex + 1
---[[
-		for i,subXmlNode in pairs(xmlNode.ChildNodes) do
-            print("subname:"..subXmlNode.Name)
-			if(subXmlNode.Name=="Entity") then
-				log("Entity value=\""..subXmlNode.Attributes.value.."\"");
-				if(subXmlNode.Value) then
-					log("   Content=\""..subXmlNode.Value.."\"");
-				end
-			end
-        end
---]]
     end
 end
 --dump(xmlTree)
