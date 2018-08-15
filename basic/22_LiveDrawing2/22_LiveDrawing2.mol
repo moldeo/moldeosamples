@@ -15,7 +15,16 @@
                 <D type="TXT"></D>
             </VAL>
         </PARAM>
-        <PARAM name="devices" type="MOLDEOOBJECT" />
+        <PARAM name="devices" type="MOLDEOOBJECT">
+            <VAL>
+                <D type="TXT">tablet</D>
+                <D type="TXT">tablet</D>
+                <D type="TXT">tablet</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">D</D>
+            </VAL>
+        </PARAM>
         <PARAM name="preeffect" type="MOLDEOOBJECT">
             <VAL>
                 <D type="TXT">erase</D>
@@ -23,17 +32,17 @@
                 <D type="TXT">erase</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT">L</D>
+                <D type="TXT">A</D>
             </VAL>
         </PARAM>
         <PARAM name="effect" type="MOLDEOOBJECT">
             <VAL>
-                <D type="TXT">movie</D>
-                <D type="TXT">video</D>
-                <D type="TXT">video</D>
+                <D type="TXT">livedrawing2</D>
+                <D type="TXT">livedrawing2</D>
+                <D type="TXT">livedrawing2</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT">A</D>
+                <D type="TXT">W</D>
             </VAL>
         </PARAM>
         <PARAM name="posteffect" type="MOLDEOOBJECT" />
@@ -56,7 +65,8 @@
         </PARAM>
         <PARAM name="outputresolution" type="TEXT">
             <VAL>
-                <D type="TXT"></D>
+                <D type="TXT">1920</D>
+                <D type="TXT">1080</D>
             </VAL>
         </PARAM>
         <PARAM name="rendermode" type="TEXT">
