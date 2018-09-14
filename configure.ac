@@ -1,4 +1,4 @@
-AC_INIT([Moldeo Samples], [1.0.0.160], [info@moldeointeractive.com.ar], [moldeosamples])
+AC_INIT([Moldeo Samples], [1.1.0.1], [info@moldeointeractive.com.ar], [moldeosamples])
 
 AM_INIT_AUTOMAKE
 AC_CONFIG_MACRO_DIR([m4])
@@ -73,4 +73,3 @@ basic/Makefile
 taller/Makefile
 samples/Makefile
 ])
-
