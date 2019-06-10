@@ -1,0 +1,4 @@
+[0610/152858:INFO:(0)] WebCore is now online.
+[0610/152858:INFO:(0)] Running Awesomium 1.7.5.0
+[0610/152858:WARNING:zygote_host_linux.cc(151)] Running without the SUID sandbox! See http://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+[0610/152913:FATAL:WebCore.cc(31)] Check failed: instance_. 
