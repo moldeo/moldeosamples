@@ -1,9 +1,9 @@
 #define KERNEL_SIZE 9
 
 // Gaussian kernel
-// 1 2 1
-// 2 4 2
-// 1 2 1
+// 1 2 1    0 1 2
+// 2 4 2    3 4 5
+// 1 2 1    6 7 9
 float kernel[KERNEL_SIZE];
 
 uniform sampler2D src_tex_unit0;
@@ -45,7 +45,7 @@ void main(void)
         vec4 tmp = texture2D(src_tex_unit0, gl_TexCoord[0].st + offset[i]);
         sum += tmp * kernel[i];
     }
-	
+
 	vec4 color0 = texture2D(src_tex_unit0, gl_TexCoord[0].st + offset[4]);
     sum += color0 * kernel[4];
 

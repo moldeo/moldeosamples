@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <MOCONFIG majorversion="192" minorversion="2">
     <DEFINITION name="__console__" class="moConsole" />
     <UPDATE />
@@ -20,7 +20,7 @@
                 <D type="TXT">mirrorg</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">L</D>
+                <D type="TXT">M</D>
             </VAL>
         </PARAM>
         <PARAM name="effect" type="TEXT">
@@ -30,7 +30,7 @@
                 <D type="TXT">icon</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">W</D>
+                <D type="TXT">W</D>
             </VAL>
             <VAL>
                 <D type="TXT">icon</D>
@@ -38,7 +38,7 @@
                 <D type="TXT">icon1</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">A</D>
+                <D type="TXT">A</D>
             </VAL>
             <VAL>
                 <D type="TXT">icon</D>
@@ -46,7 +46,7 @@
                 <D type="TXT">icon2</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">S</D>
+                <D type="TXT">S</D>
             </VAL>
             <VAL>
                 <D type="TXT">icon</D>
@@ -54,7 +54,39 @@
                 <D type="TXT">icon3</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-				<D type="TXT">D</D>
+                <D type="TXT">D</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">icon4</D>
+                <D type="TXT">icon4</D>
+                <D type="NUM">0</D>
+                <D type="NUM">0</D>
+                <D type="TXT">I</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">icon5</D>
+                <D type="TXT">icon5</D>
+                <D type="NUM">0</D>
+                <D type="NUM">0</D>
+                <D type="TXT">J</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">icon6</D>
+                <D type="TXT">icon6</D>
+                <D type="NUM">0</D>
+                <D type="NUM">0</D>
+                <D type="TXT">K</D>
+            </VAL>
+            <VAL>
+                <D type="TXT">icon</D>
+                <D type="TXT">icon7</D>
+                <D type="TXT">icon7</D>
+                <D type="NUM">0</D>
+                <D type="NUM">0</D>
+                <D type="TXT">L</D>
             </VAL>
         </PARAM>
         <PARAM name="posteffect" type="TEXT">
@@ -64,11 +96,12 @@
                 <D type="TXT">debug</D>
                 <D type="NUM">0</D>
                 <D type="NUM">0</D>
+                <D type="TXT">B</D>
             </VAL>
         </PARAM>
         <PARAM name="mastereffect" type="TEXT" />
         <PARAM name="resources" type="TEXT" />
-        <PARAM name="mastereffects_on" type="NUM">
+        <PARAM name="mastereffects_on" type="NUM" options="off,on">
             <VAL>
                 <D type="NUM">0</D>
             </VAL>
@@ -118,6 +151,21 @@
         <PARAM name="clip3" type="TEXT">
             <VAL>
                 <D type="TXT"></D>
+            </VAL>
+        </PARAM>
+        <PARAM name="script" type="SCRIPT">
+            <VAL>
+                <D type="TXT"></D>
+            </VAL>
+        </PARAM>
+        <PARAM name="screenshots" type="NUM">
+            <VAL>
+                <D type="NUM">0</D>
+            </VAL>
+        </PARAM>
+        <PARAM name="videoshots" type="NUM">
+            <VAL>
+                <D type="NUM">0</D>
             </VAL>
         </PARAM>
     </CONFIGPARAMS>

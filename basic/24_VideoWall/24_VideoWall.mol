@@ -23,20 +23,29 @@
                 <D type="TXT">erase</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT">S</D>
+                <D type="TXT"></D>
             </VAL>
         </PARAM>
         <PARAM name="effect" type="MOLDEOOBJECT">
             <VAL>
-                <D type="TXT">camera</D>
-                <D type="TXT">camera</D>
-                <D type="TXT">camera</D>
+                <D type="TXT">image</D>
+                <D type="TXT">image</D>
+                <D type="TXT">image</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">W</D>
+            </VAL>
+        </PARAM>
+        <PARAM name="posteffect" type="MOLDEOOBJECT">
+            <VAL>
+                <D type="TXT">videowall</D>
+                <D type="TXT">videowall</D>
+                <D type="TXT">videowall</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
                 <D type="TXT">A</D>
             </VAL>
         </PARAM>
-        <PARAM name="posteffect" type="MOLDEOOBJECT" />
         <PARAM name="mastereffect" type="MOLDEOOBJECT" />
         <PARAM name="resources" type="MOLDEOOBJECT" />
         <PARAM name="mastereffects_on" type="NUM" options="off,on">
