@@ -1,9 +1,9 @@
 Source: moldeosamples
 Section: graphics
 Priority: optional
-Maintainer: Moldeo Software <info@moldeo.org>
-Build-Depends: debhelper (>=9),autotools-dev
-Standards-Version: 3.9.6
+Maintainer: Moldeo <info@moldeo.org>
+Build-Depends: debhelper (>= 10), autotools-dev
+Standards-Version: 4.1.2
 Homepage: http://www.moldeo.org
 
 Package: moldeosamples
