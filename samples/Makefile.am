@@ -1,4 +1,3 @@
-
 datadir = ${prefix}/share/moldeo
 fontsdir = ${datadir}/fonts
 cursorsdir = ${datadir}/cursors
@@ -7,60 +6,79 @@ desktopdir = ${prefix}/share/applications
 pixmapsdir = ${prefix}/share/pixmaps
 testdir = ${datadir}/test
 testsimpledir = ${testdir}
-samplesdir = ${datadir}/samples
-s0dir = ${samplesdir}/Dibujo_con_luz
-s0pdir = ${samplesdir}/Dibujo_con_luz/previewshots
-s1dir = ${samplesdir}/Rain_Particles
-s1pdir = ${samplesdir}/Rain_Particles/previewshots
-s2dir = ${samplesdir}/Snow_Particles
-s2pdir = ${samplesdir}/Snow_Particles/previewshots
-s3dir = ${samplesdir}/Snow_Particles
-s3pdir = ${samplesdir}/Snow_Particles/previewshots
-s4dir = ${samplesdir}/SimpleProject
-s4pdir = ${samplesdir}/SimpleProject/previewshots
-s5dir = ${samplesdir}/ShaderExample
-s5pdir = ${samplesdir}/ShaderExample/previewshots
-s5shdir = ${samplesdir}/ShaderExample/shaders
-s6dir = ${samplesdir}/Cameras
-s6pdir = ${samplesdir}/Cameras/previewshots
-s7dir = ${samplesdir}/CamerasCircular
-s7pdir = ${samplesdir}/CamerasCircular/previewshots
-s8dir = ${samplesdir}/ChannelControl
-s8pdir = ${samplesdir}/ChannelControl/previewshots
-s9dir = ${samplesdir}/Tunel
-s9pdir = ${samplesdir}/Tunel/previewshots
-s10dir = ${samplesdir}/ParticlesBounce
-s10pdir = ${samplesdir}/ParticlesBounce/previewshots
-s11dir = ${samplesdir}/ParticlesInteractive
-s11pdir = ${samplesdir}/ParticlesInteractive/previewshots
-s12dir = ${samplesdir}/Camaleon
-s12pdir = ${samplesdir}/Camaleon/previewshots
 
-dist_s0_DATA = Dibujo_con_luz/*.*
-dist_s0p_DATA = Dibujo_con_luz/previewshots/*.*
-dist_s1_DATA = Rain_Particles/*.*
-dist_s1p_DATA = Rain_Particles/previewshots/*.*
-dist_s2_DATA = Rain_Particles/*.*
-dist_s2p_DATA = Rain_Particles/previewshots/*.*
-dist_s3_DATA = Snow_Particles/*.*
-dist_s3p_DATA = Snow_Particles/previewshots/*.*
-dist_s4_DATA = SimpleProject/*.*
-dist_s4p_DATA = SimpleProject/previewshots/*.*
-dist_s5_DATA = ShaderExample/*.*
-dist_s5p_DATA = ShaderExample/previewshots/*.*
-dist_s5sh_DATA = ShaderExample/shaders/*.*
-dist_s6_DATA = Cameras/*.*
-dist_s6p_DATA = Cameras/previewshots/*.*
-dist_s7_DATA = CamerasCircular/*.*
-dist_s7p_DATA = CamerasCircular/previewshots/*.*
-dist_s8_DATA = ChannelControl/*.*
-dist_s8p_DATA = ChannelControl/previewshots/*.*
-dist_s9_DATA = Tunel/*.*
-dist_s9p_DATA = Tunel/previewshots/*.*
-dist_s10_DATA = ParticlesBounce/*.*
-dist_s10p_DATA = ParticlesBounce/previewshots/*.*
-dist_s11_DATA = ParticlesInteractive/*.*
-dist_s11p_DATA = ParticlesInteractive/previewshots/*.*
-dist_s12_DATA = Camaleon/*.*
-dist_s12p_DATA = Camaleon/previewshots/*.*
+basicdir = ${datadir}/samples
+
+samplesChannelControldir = ${basicdir}/ChannelControl
+dist_samplesChannelControl_DATA = ChannelControl/*.*
+
+samplesChannelControlpreviewshotsdir = ${basicdir}/ChannelControl/previewshots
+dist_samplesChannelControlpreviewshots_DATA = ChannelControl/previewshots/*.*
+
+samplesParticlesBouncedir = ${basicdir}/ParticlesBounce
+dist_samplesParticlesBounce_DATA = ParticlesBounce/*.*
+
+samplesParticlesBouncepreviewshotsdir = ${basicdir}/ParticlesBounce/previewshots
+dist_samplesParticlesBouncepreviewshots_DATA = ParticlesBounce/previewshots/*.*
+
+samplesSnowParticlesdir = ${basicdir}/Snow_Particles
+dist_samplesSnowParticles_DATA = Snow_Particles/*.*
+
+samplesSnowParticlespreviewshotsdir = ${basicdir}/Snow_Particles/previewshots
+dist_samplesSnowParticlespreviewshots_DATA = Snow_Particles/previewshots/*.*
+
+samplesCamerasdir = ${basicdir}/Cameras
+dist_samplesCameras_DATA = Cameras/*.*
+
+samplesCameraspreviewshotsdir = ${basicdir}/Cameras/previewshots
+dist_samplesCameraspreviewshots_DATA = Cameras/previewshots/*.*
+
+samplesTuneldir = ${basicdir}/Tunel
+dist_samplesTunel_DATA = Tunel/*.*
+
+samplesTunelpreviewshotsdir = ${basicdir}/Tunel/previewshots
+dist_samplesTunelpreviewshots_DATA = Tunel/previewshots/*.*
+
+samplesCamaleondir = ${basicdir}/Camaleon
+dist_samplesCamaleon_DATA = Camaleon/*.*
+
+samplesCamaleonpreviewshotsdir = ${basicdir}/Camaleon/previewshots
+dist_samplesCamaleonpreviewshots_DATA = Camaleon/previewshots/*.*
+
+samplesParticlesInteractivedir = ${basicdir}/ParticlesInteractive
+dist_samplesParticlesInteractive_DATA = ParticlesInteractive/*.*
+
+
+samplesCamerasCirculardir = ${basicdir}/CamerasCircular
+dist_samplesCamerasCircular_DATA = CamerasCircular/*.*
+
+samplesCamerasCircularpreviewshotsdir = ${basicdir}/CamerasCircular/previewshots
+dist_samplesCamerasCircularpreviewshots_DATA = CamerasCircular/previewshots/*.*
+
+samplesSimpleProjectdir = ${basicdir}/SimpleProject
+dist_samplesSimpleProject_DATA = SimpleProject/*.*
+
+samplesSimpleProjectpreviewshotsdir = ${basicdir}/SimpleProject/previewshots
+dist_samplesSimpleProjectpreviewshots_DATA = SimpleProject/previewshots/*.*
+
+samplesShaderExampledir = ${basicdir}/ShaderExample
+dist_samplesShaderExample_DATA = ShaderExample/*.*
+
+samplesShaderExampleshadersdir = ${basicdir}/ShaderExample/shaders
+dist_samplesShaderExampleshaders_DATA = ShaderExample/shaders/*.*
+
+samplesShaderExamplepreviewshotsdir = ${basicdir}/ShaderExample/previewshots
+dist_samplesShaderExamplepreviewshots_DATA = ShaderExample/previewshots/*.*
+
+samplesRainParticlesdir = ${basicdir}/Rain_Particles
+dist_samplesRainParticles_DATA = Rain_Particles/*.*
+
+samplesRainParticlespreviewshotsdir = ${basicdir}/Rain_Particles/previewshots
+dist_samplesRainParticlespreviewshots_DATA = Rain_Particles/previewshots/*.*
+
+samplesDibujoconluzdir = ${basicdir}/Dibujo_con_luz
+dist_samplesDibujoconluz_DATA = Dibujo_con_luz/*.*
+
+samplesDibujoconluzpreviewshotsdir = ${basicdir}/Dibujo_con_luz/previewshots
+dist_samplesDibujoconluzpreviewshots_DATA = Dibujo_con_luz/previewshots/*.*
 

@@ -1,5 +1,5 @@
 ACLOCAL_AMFLAGS=-I m4
-SUBDIRS = basic samples taller
+SUBDIRS = basic samples taller midi scripting sound kinect 
 
 EXTRA_DIST = AUTHORS ChangeLog NEWS README
 
@@ -13,4 +13,3 @@ iconsdir = ${datadir}/icons
 dist_doc_DATA = README
 
 AM_CPPFLAGS = -DDATADIR=\"$(datadir)\" -DMODULESDIR=\"$(modulesdir)\"
-

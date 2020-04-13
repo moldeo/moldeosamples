@@ -1,21 +1,14 @@
 #!/bin/sh
 
 DIE=0
-rm moldeosamples.dirs
-rm moldeosamples.install
-touch moldeosamples.dirs
-touch moldeosamples.install
-export mdatadir="/usr/share/moldeo/"
-export mdatadirinstall="debian/moldeosamples/usr/share/moldeo/"
-find basic -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadirinstall"{}/*.*" >> moldeosamples.install' \;
-find samples -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadirinstall"{}/*.*" >> moldeosamples.install' \;
-find taller -type d -exec sh -c 'echo $mdatadir"{}" >> moldeosamples.dirs; echo $mdatadirinstall"{}/*.*" >> moldeosamples.install' \;
+distro=$1
+./builddirs.sh $distro
 
 #subir a Moldeo.org
 #find midi -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
 #find sound -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
 #find scripting -type d -exec sh -c 'echo "${datadir}{}" >> moldeosamples.dirs; echo "${datadir}{}/*.*" >> moldeosamples.install' \;
-
+./autogen.sh --prefix=/usr && make
 
 echo "deb directory..."
 (mkdir deb ) > /dev/null || {
@@ -76,14 +69,26 @@ echo "extracting..."
 
 cd deb/moldeosamples-*
 dh_make -i -e info@moldeo.org -p moldeosamples -c gpl3
-gedit ../../control.amd64.11.10 debian/control ../../moldeosamples.dirs debian/moldeosamples.dirs ../../moldeosamples.install debian/moldeosamples.install debian/changelog
 
-echo " 
-Now execute: 
- cd deb/moldeosamples-*
- dpkg-buildpackage -us -uc -rfakeroot 2>&1 | tee ../../buildpkg_logs.txt
-"
+
+sed -i -e 's/Architecture: any/Architecture: amd64/g' debian/control
+sed -i -e 's/Section: unknown/Section: graphics/g' debian/control
+sed -i -e 's/Maintainer: fabricio /Maintainer: Moldeo Interactive /g' debian/control
+sed -i -e 's/<insert the upstream URL, if relevant>/http:\\\\www.moldeo.org/g' debian/control
+
+sed -i -e 's/unstable/experimental/g' debian/changelog
+sed -i -e 's/\-1/\-1'${distro}'/g' debian/changelog
+sed -i -e 's/fabricio/Moldeo Interactive/g' debian/changelog
+sed -i -e 's/Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>/Initial release/g' debian/changelog
+
+cat ../../moldeosamples.dirs >  debian/moldeosamples.dirs
+cat ../../moldeosamples.install >  debian/moldeosamples.install
+
+xed ../../control.amd64.11.10 debian/control ../../moldeosamples.dirs debian/moldeosamples.dirs ../../moldeosamples.install debian/moldeosamples.install debian/changelog
+
+dpkg-buildpackage -us -uc -rfakeroot 2>&1 | tee ../../buildpkg_logs.txt
 
 
 echo "Success: extraction"
+
 exit 0
