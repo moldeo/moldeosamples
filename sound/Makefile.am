@@ -7,7 +7,7 @@ pixmapsdir = ${prefix}/share/pixmaps
 testdir = ${datadir}/test
 testsimpledir = ${testdir}
 
-basicdir = ${datadir}/scripting
+basicdir = ${datadir}/sound
 
 sound00dir = ${basicdir}/MidiImageSound
 dist_sound00_DATA = MidiImageSound/*.*
