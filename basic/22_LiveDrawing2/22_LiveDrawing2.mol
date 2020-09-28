@@ -32,18 +32,26 @@
                 <D type="TXT">erase</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT">A</D>
+                <D type="TXT">E</D>
             </VAL>
         </PARAM>
         <PARAM name="effect" type="MOLDEOOBJECT">
-            <VAL>
-                <D type="TXT">livedrawing2</D>
-                <D type="TXT">livedrawing2</D>
-                <D type="TXT">livedrawing2</D>
-                <D type="NUM">0</D>
-                <D type="NUM">1</D>
-                <D type="TXT">W</D>
-            </VAL>
+          <VAL>
+            <D type="TXT">movie</D>
+            <D type="TXT">video</D>
+            <D type="TXT">video</D>
+            <D type="NUM">0</D>
+            <D type="NUM">1</D>
+            <D type="TXT">S</D>
+          </VAL>
+          <VAL>
+              <D type="TXT">livedrawing2</D>
+              <D type="TXT">livedrawing2</D>
+              <D type="TXT">livedrawing2</D>
+              <D type="NUM">0</D>
+              <D type="NUM">1</D>
+              <D type="TXT">W</D>
+          </VAL>
         </PARAM>
         <PARAM name="posteffect" type="MOLDEOOBJECT" />
         <PARAM name="mastereffect" type="MOLDEOOBJECT" />
