@@ -1,0 +1,13 @@
+datadir = ${prefix}/share/moldeo
+fontsdir = ${datadir}/fonts
+cursorsdir = ${datadir}/cursors
+iconsdir = ${datadir}/icons
+desktopdir = ${prefix}/share/applications
+pixmapsdir = ${prefix}/share/pixmaps
+testdir = ${datadir}/test
+testsimpledir = ${testdir}
+
+basicdir = ${datadir}/midi
+
+midi00dir = ${basicdir}/00_MidiTest
+dist_midi00_DATA = 00_MidiTest/*.*
