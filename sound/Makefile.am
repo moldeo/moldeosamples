@@ -9,14 +9,15 @@ testsimpledir = ${testdir}
 
 basicdir = ${datadir}/sound
 
-sound00dir = ${basicdir}/MidiImageSound
-dist_sound00_DATA = MidiImageSound/*.*
+soundMidiImageSounddir = ${basicdir}/MidiImageSound
+dist_soundMidiImageSound_DATA = MidiImageSound/*.*
 
-sound01dir = ${basicdir}/Sound3D_Doppler
-dist_sound01_DATA = Sound3D_Doppler/*.*
+soundSound3DDrumsdir = ${basicdir}/Sound3D_Drums
+dist_soundSound3DDrums_DATA = Sound3D_Drums/*.*
 
-sound02dir = ${basicdir}/Sound3D_Drums
-dist_sound02_DATA = Sound3D_Drums/*.*
+soundSoundFaustdir = ${basicdir}/SoundFaust
+dist_soundSoundFaust_DATA = SoundFaust/*.*
 
-sound03dir = ${basicdir}/SoundFaust
-dist_sound03_DATA = SoundFaust/*.*
+soundSound3DDopplerdir = ${basicdir}/Sound3D_Doppler
+dist_soundSound3DDoppler_DATA = Sound3D_Doppler/*.*
+

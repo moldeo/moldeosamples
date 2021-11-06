@@ -9,11 +9,12 @@ testsimpledir = ${testdir}
 
 basicdir = ${datadir}/scripting
 
-basic00ImageScriptdir = ${basicdir}/00_ImageScript
-dist_basic00ImageScript_DATA = 00_ImageScript/*.*
+scripting00ImageScriptdir = ${basicdir}/00_ImageScript
+dist_scripting00ImageScript_DATA = 00_ImageScript/*.*
 
-basic01ConsoleScriptdir = ${basicdir}/01_ConsoleScript
-dist_basic01ConsoleScript_DATA = 01_ConsoleScript/*.*
+scripting01ConsoleScriptdir = ${basicdir}/01_ConsoleScript
+dist_scripting01ConsoleScript_DATA = 01_ConsoleScript/*.*
 
-basic02InternetScriptdir = ${basicdir}/02_InternetScript
-dist_basic02InternetScript_DATA = 02_InternetScript/*.*
+scripting02InternetScriptdir = ${basicdir}/02_InternetScript
+dist_scripting02InternetScript_DATA = 02_InternetScript/*.*
+

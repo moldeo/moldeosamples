@@ -52,7 +52,16 @@
                 <D type="TXT">W</D>
             </VAL>
         </PARAM>
-        <PARAM name="posteffect" type="MOLDEOOBJECT" />
+        <PARAM name="posteffect" type="MOLDEOOBJECT">
+          <VAL>
+              <D type="TXT">debug</D>
+              <D type="TXT">debug</D>
+              <D type="TXT">debug</D>
+              <D type="NUM">0</D>
+              <D type="NUM">1</D>
+              <D type="TXT">N</D>
+          </VAL>
+        </PARAM>
         <PARAM name="mastereffect" type="MOLDEOOBJECT" />
         <PARAM name="resources" type="MOLDEOOBJECT" />
         <PARAM name="mastereffects_on" type="NUM" options="off,on">

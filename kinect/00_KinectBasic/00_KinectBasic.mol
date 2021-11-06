@@ -29,13 +29,13 @@
         </PARAM>
         <PARAM name="devices" type="TEXT">
             <VAL>
-                <D type="TXT">kinect</D>
-                <D type="TXT">kinect</D>
-                <D type="TXT">kinect</D>
+                <D type="TXT">netoscout</D>
+                <D type="TXT">moldeoapioscout</D>
+                <D type="TXT">moldeoapioscout</D>
                 <D type="NUM">0</D>
                 <D type="NUM">1</D>
-                <D type="TXT">K</D>
-            </VAL>                        
+                <D type="TXT"></D>
+            </VAL>
         </PARAM>
         <PARAM name="preeffect" type="TEXT">
             <VAL>
@@ -59,8 +59,7 @@
         </PARAM>
         <PARAM name="posteffect" type="TEXT" />
         <PARAM name="mastereffect" type="TEXT" />
-        <PARAM name="resources" type="TEXT">
-        </PARAM>
+        <PARAM name="resources" type="TEXT" />
         <PARAM name="mastereffects_on" type="NUM" options="off,on">
             <VAL>
                 <D type="NUM">0</D>

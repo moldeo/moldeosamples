@@ -9,5 +9,6 @@ testsimpledir = ${testdir}
 
 basicdir = ${datadir}/midi
 
-midi00dir = ${basicdir}/00_MidiTest
-dist_midi00_DATA = 00_MidiTest/*.*
+midi00MidiTestdir = ${basicdir}/00_MidiTest
+dist_midi00MidiTest_DATA = 00_MidiTest/*.*
+
