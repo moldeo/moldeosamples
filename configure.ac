@@ -54,8 +54,16 @@ case "$host" in
                 with_boost_libdir="/usr/lib/x86_64-linux-gnu"
                 libdir=$prefix"/lib"
                 ;;
+        aarch64-*-darwin*)
+                AC_DEFINE(OS_DARWIN, 1, [Darwin backend])
+                AC_SUBST(OS_DARWIN)
+                ARCH_SPECIFIC_CFLAGS=""
+                ARCH_STRING="arm64"
+                libdir=$prefix"/lib"
+                corefoundation='/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Headers'
+                ;;
         ppc-* | powerpc-*)
-		AC_MSG_WARN([HI THERE!])
+		            AC_MSG_WARN([HI THERE!])
                 AC_DEFINE(ARCH_PPC, 1, [Architecture is PowerPC])
                 ARCH_SPECIFIC_CFLAGS=""
                 ARCH_STRING="PowerPC"
